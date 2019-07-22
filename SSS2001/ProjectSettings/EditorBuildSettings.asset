@@ -8,10 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Tyler L_/TestingManager.unity
-    guid: 39ff27350d443b54c9da30e3fe16b0c3
-  - enabled: 1
-    path: Assets/Tyler L_/g.unity
-    guid: e104b2c116fa0c34b80cbe5af5cbd65d
   m_configObjects: {}
