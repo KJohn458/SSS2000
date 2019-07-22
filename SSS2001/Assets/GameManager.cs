@@ -27,11 +27,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.F12)){
 
-            SceneManager.LoadScene("g",LoadSceneMode.Single);
-
-        }
     }
 
     int GetHealth()
