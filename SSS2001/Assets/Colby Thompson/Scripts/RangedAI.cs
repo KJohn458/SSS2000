@@ -4,26 +4,36 @@ using UnityEngine;
 
 public class RangedAI : MonoBehaviour
 {
-    public Transform Sprite;
-    int MoveSpeed = 4;
-    int MinDist = 5;
+    [Header("Stats")]
+    public float speed;
+    public float stoppingDistance;
+    public float nearDistance;
+    public float startTimeBtwShots;
+    private float timeBtwShots;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    [Header("References")]
+    public GameObject shot;
+    private Transform player;
 
+    void Start() {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        timeBtwShots = startTimeBtwShots;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        transform.LookAt(Sprite.position);
-        transform.Rotate(new Vector3(0, -90, 0));
+    void Update() {
+        
 
-        if (Vector3.Distance(transform.position, Sprite.position) >= MinDist)
-        {
-            transform.Translate(new Vector3(MoveSpeed * Time.deltaTime, 0, 0));
+        if (Vector2.Distance(transform.position, player.position) > stoppingDistance) {
+            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+        } else {
+            transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+        }
+
+        if (timeBtwShots <= 0) {
+            Instantiate(shot, transform.position, Quaternion.identity);
+            timeBtwShots = startTimeBtwShots;
+        } else {
+            timeBtwShots -= Time.deltaTime;
         }
     }
 }
-

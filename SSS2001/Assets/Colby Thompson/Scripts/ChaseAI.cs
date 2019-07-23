@@ -5,16 +5,9 @@ using UnityEngine;
 public class ChaseAI : MonoBehaviour
 {
     public Transform Sprite;
-    int MoveSpeed = 4;
-    int MinDist = 1;
+    public int MoveSpeed = 4;
+    public int MinDist = 1;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         transform.LookAt(Sprite.position);
