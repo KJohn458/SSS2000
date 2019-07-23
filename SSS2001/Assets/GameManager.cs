@@ -30,59 +30,64 @@ public class GameManager : MonoBehaviour
 
     }
 
-    int GetHealth()
+    public int GetHealth()
     {
 
         return hp;
 
     }
 
-    void SetHP(int a)
+    public void SetHP(int a)
     {
 
         hp = a;
 
     }
 
-    void ManageHP(int a)
+    public void ManageHP(int a)
     {
 
         hp += a;
 
     }
 
-    int GetMonsters()
+    public int GetMonsters()
     {
 
         return monsters;
 
     }
 
-    void AddMonsters(int a)
+    public void AddMonsters(int a)
     {
 
         monsters += a;
         
     }
 
-    void SubMonsters()
+    public void SubMonsters()
     {
 
         monsters --;
 
     }
 
-   int getAmmo()
+    public void ManageAmmo(int a)
+    {
+        ammo += a;
+    }
+
+    public int getAmmo()
     {
         return ammo;
     }
 
-   void subAmmo()
+    public void subAmmo()
     {
         ammo--;
     }
 
-   void resetAmmo()
+    public void resetAmmo()
     {
 
         ammo = 6;
