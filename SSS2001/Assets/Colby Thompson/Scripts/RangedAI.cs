@@ -25,8 +25,10 @@ public class RangedAI : MonoBehaviour
 
         if (Vector2.Distance(transform.position, player.position) > stoppingDistance) {
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-        } else {
+        } else if((Vector2.Distance(transform.position, player.position) < nearDistance)){
             transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+        } else {
+            transform.position = Vector2.MoveTowards(transform.position, player.position, 0);
         }
 
         if (timeBtwShots <= 0) {
