@@ -7,7 +7,8 @@ public class Spawner : MonoBehaviour
     public GameObject Mob;
     void Start()
     {
-        
+        Instantiate(Mob, transform.position, transform.rotation);
+
     }
 
     // Update is called once per frame
