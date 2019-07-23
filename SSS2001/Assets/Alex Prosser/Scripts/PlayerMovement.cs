@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
     public float moveSpeed;
+    private Rigidbody2D rigidbody2D;
+
+    void Start() {
+        rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
+    }
 
     void Update() {
-        if (Input.GetAxisRaw("Vertical") < 0) {
-            transform.position += Vector3.down * moveSpeed * Time.deltaTime;
-        }
-        if (Input.GetAxisRaw("Vertical") > 0) {
-            transform.position += Vector3.up * moveSpeed * Time.deltaTime;
-        }
-        if (Input.GetAxisRaw("Horizontal") < 0) {
-            transform.position += Vector3.left * moveSpeed * Time.deltaTime;
-        }
-        if (Input.GetAxisRaw("Horizontal") > 0) {
-            transform.position += Vector3.right * moveSpeed * Time.deltaTime;
-        }
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+
+        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+
+        rigidbody2D.MovePosition(rigidbody2D.position + (movement * moveSpeed * Time.deltaTime));
 
         Vector3 mouseScreen = Input.mousePosition;
         Vector3 mouse = Camera.main.ScreenToWorldPoint(mouseScreen);
