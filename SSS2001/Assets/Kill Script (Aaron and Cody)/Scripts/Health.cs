@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public GameObject gameManager;
-    public GameManager gmScript;
-    public int MaxHP;
+    private GameObject gameManager;
+    private GameManager gmScript;
+    private int MaxHP;
     private int CurrentHP;
 
     private void Start()
