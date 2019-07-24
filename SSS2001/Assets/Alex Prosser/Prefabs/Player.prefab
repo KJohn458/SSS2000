@@ -126,6 +126,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
+  gameManager: {fileID: 8482221143786333540, guid: 2079b60380c6d134794cf3b5294bb9f7,
+    type: 3}
 --- !u!50 &9175455583797350425
 Rigidbody2D:
   serializedVersion: 4
