@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
     public GameObject gameManager;
     public GameManager gmScript;
     public int MaxHP;
+    private int CurrentHP;
 
     private void Start()
     {
@@ -14,5 +15,13 @@ public class Health : MonoBehaviour
         gmScript = gameManager.GetComponent<GameManager>();
         gmScript.SetHP(MaxHP);
 
+    }
+    private void Update()
+    {
+        CurrentHP = gmScript.GetHealth();
+        if (CurrentHP == 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
