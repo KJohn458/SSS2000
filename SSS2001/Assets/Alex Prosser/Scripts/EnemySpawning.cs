@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemySpawning : MonoBehaviour
 {
+    public GameObject enemy;
     public int delayInSeconds;
     private float currentDelay;
     void Start()
@@ -19,6 +20,7 @@ public class EnemySpawning : MonoBehaviour
         if (currentDelay <= 0) {
             Debug.Log("Spawn");
             currentDelay = delayInSeconds;
+            Instantiate(enemy, transform.position, transform.rotation);
         }
     }
 }
