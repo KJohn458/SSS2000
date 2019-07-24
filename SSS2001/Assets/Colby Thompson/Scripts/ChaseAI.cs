@@ -18,7 +18,7 @@ public class ChaseAI : MonoBehaviour
     {
         Vector3 dir = (sprite.transform.position - rigidbody.transform.position).normalized;
 
-        if (Vector3.Distance(sprite.transform.position, rigidbody.transform.position) > 0.1)
+        if (Vector3.Distance(sprite.transform.position, rigidbody.transform.position) > minDist)
         {
             rigidbody.MovePosition(rigidbody.transform.position + dir * moveSpeed * Time.deltaTime);
         }
