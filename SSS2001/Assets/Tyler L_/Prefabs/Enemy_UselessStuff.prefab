@@ -68,7 +68,7 @@ SpriteRenderer:
   m_SortingLayerID: -1462370259
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2f9d7fd5f5de98c4b96c406cf1bc0d2a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9fc734f45639520428d7c2dd07d9a50b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 2724381481473736937}
   - component: {fileID: 2724381481473736951}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy_UselessStuff
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

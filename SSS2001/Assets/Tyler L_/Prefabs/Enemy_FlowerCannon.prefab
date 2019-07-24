@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 2724381481473736937}
   - component: {fileID: 2724381481473736951}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy_FlowerCannon
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
