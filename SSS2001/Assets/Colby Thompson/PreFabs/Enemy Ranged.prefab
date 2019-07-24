@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a885e4e892635e47afe8ec7f82d4eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 3415302542404477486, guid: 7f1f7b0eaace592409b0103cd90004f0, type: 3}
   speed: 3
   stoppingDistance: 5
   nearDistance: 3
