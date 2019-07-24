@@ -22,11 +22,13 @@ public class Spit : MonoBehaviour
             DestroyProjectile();
         }
     }
-    private void OnTriggerEnter2D(Collider2D other){
-            if (other.CompareTag("Payer")){
-                DestroyProjectile();
-            }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Payer"))
+        {
+            DestroyProjectile();
         }
+    }
     void DestroyProjectile(){
         Destroy(gameObject);
     }
