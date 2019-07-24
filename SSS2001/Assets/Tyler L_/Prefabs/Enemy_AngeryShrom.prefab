@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 2724381481473736951}
   - component: {fileID: -406160209573740196}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy_AngeryShrom
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
