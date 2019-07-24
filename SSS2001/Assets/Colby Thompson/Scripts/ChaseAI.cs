@@ -4,18 +4,25 @@ using UnityEngine;
 
 public class ChaseAI : MonoBehaviour
 {
-    public Transform Sprite;
-    public int MoveSpeed = 4;
-    public int MinDist = 1;
+    public float moveSpeed = 4f;
+    public int minDist = 1;
+    private Rigidbody2D rigidbody;
+    private GameObject player;
+
+    private void Start()
+    {
+        rigidbody = gameObject.GetComponent<Rigidbody2D>();
+        player = GameObject.FindWithTag("Player");
+        Debug.Log(player);
+    }
 
     void Update()
     {
-        transform.LookAt(Sprite.position);
-        transform.Rotate(new Vector3(0, -90, 0));
+        Vector3 dir = (player.transform.position - rigidbody.transform.position).normalized;
 
-        if (Vector3.Distance(transform.position, Sprite.position) >= MinDist)
+        if (Vector3.Distance(player.transform.position, rigidbody.transform.position) > minDist)
         {
-            transform.Translate(new Vector3(MoveSpeed * Time.deltaTime, 0, 0));
+            rigidbody.MovePosition(rigidbody.transform.position + dir * moveSpeed * Time.deltaTime);
         }
     }
 }
