@@ -68,12 +68,12 @@ SpriteRenderer:
   m_SortingLayerID: -1462370259
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9fc734f45639520428d7c2dd07d9a50b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c0265f101f2867a4386c4faccb0cf6f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.97, y: 8.29}
+  m_Size: {x: 20.48, y: 20.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 2724381481473736937}
   - component: {fileID: 2724381481473736951}
   m_Layer: 0
-  m_Name: Enemy_UselessStuff
+  m_Name: Enemy_UselessPlantEnemyThing
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
