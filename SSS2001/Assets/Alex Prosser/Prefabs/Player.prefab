@@ -50,6 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   gameManager: {fileID: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!50 &3415302542511368875
 Rigidbody2D:
   serializedVersion: 4
@@ -193,8 +194,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -757528567
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 96cb6a9c822f5ca4fa3bf78b427114e2, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}

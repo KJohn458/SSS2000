@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour {
     public float moveSpeed;
     private Rigidbody2D rigidbody2D;
     public GameManager gameManager;
+    public Quaternion shootingRotation;
 
     void Start() {
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
@@ -22,7 +23,7 @@ public class PlayerController : MonoBehaviour {
         Vector3 mouseScreen = Input.mousePosition;
         Vector3 mouse = Camera.main.ScreenToWorldPoint(mouseScreen);
 
-        transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(mouse.y - transform.position.y, mouse.x - transform.position.x) * Mathf.Rad2Deg - 90);
+        shootingRotation = Quaternion.Euler(0, 0, Mathf.Atan2(mouse.y - transform.position.y, mouse.x - transform.position.x) * Mathf.Rad2Deg - 90);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
