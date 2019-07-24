@@ -1864,6 +1864,7 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream:SSS2001/Assets/Kaylie/Scenes/PurpleRemake.unity
     - target: {fileID: 3415302542511368872, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
       propertyPath: m_Enabled
@@ -1873,26 +1874,44 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.206465
+=======
+    - target: {fileID: 3415302542511368877, guid: 7f1f7b0eaace592409b0103cd90004f0,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.15873337
+>>>>>>> Stashed changes:SSS2001/Assets/Kaylie/Scenes/Ktest3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 3415302542511368877, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
       propertyPath: m_Size.y
+<<<<<<< Updated upstream:SSS2001/Assets/Kaylie/Scenes/PurpleRemake.unity
       value: 3.9704413
+=======
+      value: 3.1734228
+>>>>>>> Stashed changes:SSS2001/Assets/Kaylie/Scenes/Ktest3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 3415302542511368877, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
       propertyPath: m_Offset.x
+<<<<<<< Updated upstream:SSS2001/Assets/Kaylie/Scenes/PurpleRemake.unity
       value: -0.06660187
+=======
+      value: -0.07326156
+>>>>>>> Stashed changes:SSS2001/Assets/Kaylie/Scenes/Ktest3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 3415302542511368877, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
       propertyPath: m_Size.x
+<<<<<<< Updated upstream:SSS2001/Assets/Kaylie/Scenes/PurpleRemake.unity
       value: 1.7725813
       objectReference: {fileID: 0}
     - target: {fileID: 3415302542511368877, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
+=======
+      value: 1.5860914
+>>>>>>> Stashed changes:SSS2001/Assets/Kaylie/Scenes/Ktest3.unity
       objectReference: {fileID: 0}
     - target: {fileID: 3415302542576348809, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
