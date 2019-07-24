@@ -11,6 +11,7 @@ TagManager:
   - Ammo
   - Enemy
   - BulletSpawn
+  - GameManager
   layers:
   - Default
   - TransparentFX
