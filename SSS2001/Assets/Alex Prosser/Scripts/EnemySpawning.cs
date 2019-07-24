@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawning : MonoBehaviour
 {
     public GameObject enemy;
-    public int delayInSeconds;
+    public float delayInSeconds;
     private float currentDelay;
     void Start()
     {
