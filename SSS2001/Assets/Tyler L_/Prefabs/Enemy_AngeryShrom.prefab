@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 478920914}
   - component: {fileID: 5044945313037471747}
   m_Layer: 0
-  m_Name: Enemy_AngeryShorm
+  m_Name: Enemy_AngeryShrom
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,7 +129,7 @@ Animator:
   m_GameObject: {fileID: 2724381481473736948}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 25fa5d209723bb04f9ef32b5d0597f0f, type: 2}
+  m_Controller: {fileID: 9100000, guid: eb8921d1a2ad64640b8d286b329df348, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
