@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 3415302542511368876}
   - component: {fileID: 3415302542511368877}
   - component: {fileID: 6015050642972840431}
+  - component: {fileID: 4282164619739540231}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -112,7 +113,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3129831353022990663}
-  - {fileID: 7419343384891833617}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -214,33 +214,17 @@ CapsuleCollider2D:
   m_Offset: {x: -0.069301605, y: -0.1345259}
   m_Size: {x: 1.3723819, y: 3.7475955}
   m_Direction: 0
---- !u!1 &8997158316930166484
-GameObject:
+--- !u!114 &4282164619739540231
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7419343384891833617}
-  m_Layer: 0
-  m_Name: Spawn
-  m_TagString: Spawn
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7419343384891833617
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8997158316930166484}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3415302542404477486}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 3415302542511368873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb66f84b09049cb499bcc73585004317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Melee: {fileID: -8701835411628346137, guid: a8edde4502d59f04dbaba8073e0657af, type: 3}
+  Spawn: {fileID: 0}
