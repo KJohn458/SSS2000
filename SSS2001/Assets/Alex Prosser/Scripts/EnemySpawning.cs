@@ -15,6 +15,7 @@ public class EnemySpawning : MonoBehaviour
         gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
         currentDelay = delayInSeconds;
         currentEnemyCount = maxEnemies;
+        gameManager.AddMonsters(maxEnemies);
     }
 
     void Update()

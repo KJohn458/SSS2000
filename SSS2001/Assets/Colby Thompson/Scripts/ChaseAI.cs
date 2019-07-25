@@ -13,7 +13,6 @@ public class ChaseAI : MonoBehaviour
     {
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
-        Debug.Log(player);
     }
 
     void Update()
