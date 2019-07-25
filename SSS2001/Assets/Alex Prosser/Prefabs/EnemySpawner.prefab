@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 6523038613488516861}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 25.79, y: -6.01, z: -9.143392}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -43,5 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c1d672e43192094b839f2c566761fcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 2724381481473736948, guid: 177cd992ef08192449bf0ef030883bab, type: 3}
+  enemy: {fileID: 2724381481473736948, guid: b06f693216970a14fba295a3153c386b, type: 3}
   delayInSeconds: 3
+  maxEnemies: 5
