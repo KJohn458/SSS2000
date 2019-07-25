@@ -21,6 +21,6 @@ public class Bullet : MonoBehaviour
     }
     private void DestroyObjectDelayed()
     {
-        Destroy(gameObject , 0.5f);
+        Destroy(gameObject , 0.75f);
     }
 }
