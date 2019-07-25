@@ -167,4 +167,5 @@ MonoBehaviour:
   stoppingDistance: 5
   nearDistance: 3
   startTimeBtwShots: 2
+  range: 25
   shot: {fileID: 649067316333889554, guid: 56235854fc33f3546ab4b9ccb4d767c2, type: 3}
