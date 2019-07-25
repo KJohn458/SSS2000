@@ -130,6 +130,7 @@ MonoBehaviour:
   moveSpeed: 10
   gameManager: {fileID: 0}
   shootingRotation: {x: 0, y: 0, z: 0, w: 0}
+  death: {fileID: 0}
 --- !u!50 &3415302542511368875
 Rigidbody2D:
   serializedVersion: 4
@@ -179,7 +180,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.15490901, y: -0.20790374}
+  m_Offset: {x: -0.06, y: -0.13}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
