@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 7152150}
   m_Layer: 0
   m_Name: Medium_rock (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,11 +194,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7152147}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 326.55276, y: 4.6114864, z: 3192.4587}
+  m_LocalPosition: {x: 285.62836, y: 24.12777, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 64
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &7152150
 BoxCollider2D:
@@ -276,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 86
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -371,7 +371,7 @@ PrefabInstance:
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 89
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 45493912}
   m_Layer: 0
   m_Name: Small_rock2 (7)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -443,11 +443,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45493908}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 97.4, y: 43, z: 3192.4587}
+  m_LocalPosition: {x: 56.475594, y: 62.51628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 38
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &45493910
 BoxCollider2D:
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 54016269}
   m_Layer: 0
   m_Name: Small_rock2 (20)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -576,11 +576,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54016265}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 527.7, y: -2.7, z: 3192.4587}
+  m_LocalPosition: {x: 486.77563, y: 16.816282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 57
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &54016267
 BoxCollider2D:
@@ -696,7 +696,7 @@ GameObject:
   - component: {fileID: 69309682}
   m_Layer: 0
   m_Name: horizontal_rock (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -709,11 +709,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69309678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 88.6, y: -2.5, z: 3192.4587}
+  m_LocalPosition: {x: 47.67559, y: 17.016281, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 34
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &69309680
 BoxCollider2D:
@@ -829,7 +829,7 @@ GameObject:
   - component: {fileID: 69802603}
   m_Layer: 0
   m_Name: small_rock (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -842,11 +842,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69802599}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.45, y: 29.55, z: 3192.4587}
+  m_LocalPosition: {x: -15.474405, y: 49.066284, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 22
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &69802601
 BoxCollider2D:
@@ -962,7 +962,7 @@ GameObject:
   - component: {fileID: 106128442}
   m_Layer: 0
   m_Name: Small_rock2 (18)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -975,11 +975,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106128438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 451.9, y: -12.9, z: 3192.4587}
+  m_LocalPosition: {x: 410.9756, y: 6.6162825, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 54
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &106128440
 BoxCollider2D:
@@ -1137,7 +1137,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 106
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -1212,7 +1212,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 96
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -1287,7 +1287,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 82
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -1361,7 +1361,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &157643283
 SpriteRenderer:
@@ -1424,7 +1424,7 @@ GameObject:
   - component: {fileID: 159947510}
   m_Layer: 0
   m_Name: Medium_rock
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1485,11 +1485,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159947507}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 205.99776, y: 12.837485, z: 3192.4587}
+  m_LocalPosition: {x: 165.07335, y: 32.353767, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 59
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &159947510
 BoxCollider2D:
@@ -1531,7 +1531,7 @@ GameObject:
   - component: {fileID: 186337911}
   m_Layer: 0
   m_Name: Small_rock2 (14)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1544,11 +1544,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186337907}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 227.7, y: -12.8, z: 3192.4587}
+  m_LocalPosition: {x: 186.77559, y: 6.716282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 46
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &186337909
 BoxCollider2D:
@@ -1700,7 +1700,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 116
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -1775,7 +1775,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 105
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -1800,6 +1800,96 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 188629908}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &227301586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 227301587}
+  m_Layer: 0
+  m_Name: Hazards
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &227301587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227301586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45.571655, y: -10.827768, z: -4722.0586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 741816109}
+  - {fileID: 1261585670}
+  - {fileID: 2110620000}
+  - {fileID: 778493192}
+  - {fileID: 377096510}
+  - {fileID: 1465852509}
+  - {fileID: 69802600}
+  - {fileID: 608391596}
+  - {fileID: 1799744041}
+  - {fileID: 1648622453}
+  - {fileID: 1858989328}
+  - {fileID: 1583254278}
+  - {fileID: 277781946}
+  - {fileID: 694761533}
+  - {fileID: 1440298314}
+  - {fileID: 774251216}
+  - {fileID: 305626880}
+  - {fileID: 415482694}
+  - {fileID: 69309679}
+  - {fileID: 1037937175}
+  - {fileID: 1728991002}
+  - {fileID: 1220562439}
+  - {fileID: 45493909}
+  - {fileID: 672406744}
+  - {fileID: 1994719419}
+  - {fileID: 1306264996}
+  - {fileID: 1345605025}
+  - {fileID: 1304457608}
+  - {fileID: 1960730105}
+  - {fileID: 1849003912}
+  - {fileID: 186337908}
+  - {fileID: 1676181911}
+  - {fileID: 250802558}
+  - {fileID: 1873519738}
+  - {fileID: 1944877673}
+  - {fileID: 333991370}
+  - {fileID: 563753218}
+  - {fileID: 1344759380}
+  - {fileID: 106128439}
+  - {fileID: 1497612091}
+  - {fileID: 2144055922}
+  - {fileID: 54016266}
+  - {fileID: 2137918435}
+  - {fileID: 159947509}
+  - {fileID: 1081964784}
+  - {fileID: 260260223}
+  - {fileID: 1904965290}
+  - {fileID: 1356156722}
+  - {fileID: 7152149}
+  - {fileID: 831764422}
+  - {fileID: 1343912061}
+  - {fileID: 594131113}
+  - {fileID: 1256696552}
+  - {fileID: 508580454}
+  - {fileID: 1414557800}
+  - {fileID: 781682508}
+  - {fileID: 1836044444}
+  - {fileID: 932078439}
+  - {fileID: 1888648777}
+  - {fileID: 1349589561}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &232280445 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
@@ -1835,7 +1925,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 16
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &235316918
 SpriteRenderer:
@@ -1914,7 +2004,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &248528343
 SpriteRenderer:
@@ -1978,7 +2068,7 @@ GameObject:
   - component: {fileID: 250802561}
   m_Layer: 0
   m_Name: Small_rock2 (15)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1991,11 +2081,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250802557}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 275.2, y: 29.8, z: 3192.4587}
+  m_LocalPosition: {x: 234.2756, y: 49.316284, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 48
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &250802559
 BoxCollider2D:
@@ -2110,7 +2200,7 @@ GameObject:
   - component: {fileID: 260260224}
   m_Layer: 0
   m_Name: Medium_rock (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2171,11 +2261,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260260221}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 284.35275, y: 9.311486, z: 3192.4587}
+  m_LocalPosition: {x: 243.42834, y: 28.827768, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 61
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &260260224
 BoxCollider2D:
@@ -2217,7 +2307,7 @@ GameObject:
   - component: {fileID: 277781949}
   m_Layer: 0
   m_Name: horizontal_rock (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2230,11 +2320,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277781945}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.1, y: -10.1, z: 3192.4587}
+  m_LocalPosition: {x: -1.8244095, y: 9.416282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 28
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &277781947
 BoxCollider2D:
@@ -2350,7 +2440,7 @@ GameObject:
   - component: {fileID: 305626883}
   m_Layer: 0
   m_Name: Small_rock2 (4)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2363,11 +2453,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305626879}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 62.8, y: 29.9, z: 3192.4587}
+  m_LocalPosition: {x: 21.875595, y: 49.416283, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 32
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &305626881
 BoxCollider2D:
@@ -2501,9 +2591,6 @@ Transform:
   - {fileID: 1870275944}
   - {fileID: 835132294}
   - {fileID: 232280445}
-  - {fileID: 741816109}
-  - {fileID: 1261585670}
-  - {fileID: 2110620000}
   - {fileID: 1035796716}
   - {fileID: 2023593006}
   - {fileID: 849347171}
@@ -2515,62 +2602,6 @@ Transform:
   - {fileID: 235316917}
   - {fileID: 1713316363}
   - {fileID: 1412581181}
-  - {fileID: 778493192}
-  - {fileID: 377096510}
-  - {fileID: 1465852509}
-  - {fileID: 69802600}
-  - {fileID: 608391596}
-  - {fileID: 1799744041}
-  - {fileID: 1648622453}
-  - {fileID: 1858989328}
-  - {fileID: 1583254278}
-  - {fileID: 277781946}
-  - {fileID: 694761533}
-  - {fileID: 1440298314}
-  - {fileID: 774251216}
-  - {fileID: 305626880}
-  - {fileID: 415482694}
-  - {fileID: 69309679}
-  - {fileID: 1037937175}
-  - {fileID: 1728991002}
-  - {fileID: 1220562439}
-  - {fileID: 45493909}
-  - {fileID: 672406744}
-  - {fileID: 1994719419}
-  - {fileID: 1306264996}
-  - {fileID: 1345605025}
-  - {fileID: 1304457608}
-  - {fileID: 1960730105}
-  - {fileID: 1849003912}
-  - {fileID: 186337908}
-  - {fileID: 1676181911}
-  - {fileID: 250802558}
-  - {fileID: 1873519738}
-  - {fileID: 1944877673}
-  - {fileID: 333991370}
-  - {fileID: 563753218}
-  - {fileID: 1344759380}
-  - {fileID: 106128439}
-  - {fileID: 1497612091}
-  - {fileID: 2144055922}
-  - {fileID: 54016266}
-  - {fileID: 2137918435}
-  - {fileID: 159947509}
-  - {fileID: 1081964784}
-  - {fileID: 260260223}
-  - {fileID: 1904965290}
-  - {fileID: 1356156722}
-  - {fileID: 7152149}
-  - {fileID: 831764422}
-  - {fileID: 1343912061}
-  - {fileID: 594131113}
-  - {fileID: 1256696552}
-  - {fileID: 508580454}
-  - {fileID: 1414557800}
-  - {fileID: 781682508}
-  - {fileID: 1836044444}
-  - {fileID: 932078439}
-  - {fileID: 1888648777}
   - {fileID: 379412739}
   - {fileID: 960338107}
   - {fileID: 998910656}
@@ -2669,7 +2700,7 @@ PrefabInstance:
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 109
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
@@ -2750,7 +2781,7 @@ GameObject:
   - component: {fileID: 333991373}
   m_Layer: 0
   m_Name: small_rock (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2763,11 +2794,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333991369}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 313.4, y: 20.2, z: 3192.4587}
+  m_LocalPosition: {x: 272.4756, y: 39.716286, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 51
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &333991371
 BoxCollider2D:
@@ -2883,7 +2914,7 @@ GameObject:
   - component: {fileID: 377096513}
   m_Layer: 0
   m_Name: small_rock (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2896,11 +2927,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377096509}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.85, y: 14.18, z: 3192.4587}
+  m_LocalPosition: {x: -47.774406, y: 33.69628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 20
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &377096511
 BoxCollider2D:
@@ -3002,6 +3033,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.56}
   m_EdgeRadius: 0
+--- !u!1 &378459281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3415302542511368873, guid: 7f1f7b0eaace592409b0103cd90004f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1429877510}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &379412738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3052,7 +3089,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -3205,7 +3242,7 @@ GameObject:
   - component: {fileID: 415482697}
   m_Layer: 0
   m_Name: horizontal_rock (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3218,11 +3255,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 415482693}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 91.8, y: 22.1, z: 3192.4587}
+  m_LocalPosition: {x: 50.875595, y: 41.61628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 33
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &415482695
 BoxCollider2D:
@@ -3374,7 +3411,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -3469,7 +3506,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 119
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -3507,7 +3544,7 @@ GameObject:
   - component: {fileID: 508580455}
   m_Layer: 0
   m_Name: Medium_rock (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3568,11 +3605,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508580452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 502.15274, y: -11.788513, z: 3192.4587}
+  m_LocalPosition: {x: 461.22833, y: 7.727769, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 69
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &508580455
 BoxCollider2D:
@@ -3662,7 +3699,7 @@ PrefabInstance:
     - target: {fileID: 6523038613488516863, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6523038613488516863, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
         type: 3}
@@ -3690,6 +3727,11 @@ PrefabInstance:
       propertyPath: delayInSeconds
       value: 1.1
       objectReference: {fileID: 0}
+    - target: {fileID: 6523038613488516860, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
+        type: 3}
+      propertyPath: maxEnemies
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e4457e8924d1f47b9b7c6dfd94decd, type: 3}
 --- !u!1 &563753217
@@ -3706,7 +3748,7 @@ GameObject:
   - component: {fileID: 563753221}
   m_Layer: 0
   m_Name: small_rock (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3719,11 +3761,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563753217}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 349.6, y: -11.7, z: 3192.4587}
+  m_LocalPosition: {x: 308.6756, y: 7.8162823, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 52
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &563753219
 BoxCollider2D:
@@ -3875,7 +3917,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -3933,7 +3975,7 @@ GameObject:
   - component: {fileID: 594131114}
   m_Layer: 0
   m_Name: Medium_rock (9)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3994,11 +4036,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594131111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 402.65274, y: 29.611485, z: 3192.4587}
+  m_LocalPosition: {x: 361.72833, y: 49.12777, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 67
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &594131114
 BoxCollider2D:
@@ -4076,7 +4118,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -4135,7 +4177,7 @@ GameObject:
   - component: {fileID: 608391599}
   m_Layer: 0
   m_Name: Small_rock2 (1)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4148,11 +4190,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608391595}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.2, y: 25.75, z: 3192.4587}
+  m_LocalPosition: {x: -49.124405, y: 45.26628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 23
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &608391597
 BoxCollider2D:
@@ -4304,7 +4346,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 104
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -4358,7 +4400,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 15
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &630877052
 SpriteRenderer:
@@ -4458,7 +4500,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 85
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -4542,7 +4584,7 @@ GameObject:
   - component: {fileID: 672406747}
   m_Layer: 0
   m_Name: Small_rock2 (8)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4555,11 +4597,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672406743}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 139.4, y: 46.6, z: 3192.4587}
+  m_LocalPosition: {x: 98.475586, y: 66.11628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 39
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &672406745
 BoxCollider2D:
@@ -4675,7 +4717,7 @@ GameObject:
   - component: {fileID: 694761536}
   m_Layer: 0
   m_Name: horizontal_rock (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4688,11 +4730,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694761532}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 61.9, y: -7.8, z: 3192.4587}
+  m_LocalPosition: {x: 20.975594, y: 11.716282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 29
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &694761534
 BoxCollider2D:
@@ -4933,7 +4975,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 115
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -4971,7 +5013,7 @@ GameObject:
   - component: {fileID: 741816110}
   m_Layer: 0
   m_Name: horizontal_rock
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5032,11 +5074,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741816107}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.11, y: 7.37, z: 3192.4587}
+  m_LocalPosition: {x: -35.814407, y: 26.886282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 5
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &741816110
 BoxCollider2D:
@@ -5114,7 +5156,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 114
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -5195,7 +5237,7 @@ PrefabInstance:
     - target: {fileID: 6523038613488516863, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6523038613488516863, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
         type: 3}
@@ -5222,6 +5264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: delayInSeconds
       value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6523038613488516860, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
+        type: 3}
+      propertyPath: maxEnemies
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e4457e8924d1f47b9b7c6dfd94decd, type: 3}
@@ -5275,7 +5322,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 107
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -5314,7 +5361,7 @@ GameObject:
   - component: {fileID: 774251219}
   m_Layer: 0
   m_Name: horizontal_rock (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5327,11 +5374,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774251215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 72, y: 40.4, z: 3192.4587}
+  m_LocalPosition: {x: 31.075592, y: 59.916283, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 31
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &774251217
 BoxCollider2D:
@@ -5483,7 +5530,7 @@ PrefabInstance:
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 113
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
@@ -5532,7 +5579,7 @@ GameObject:
   - component: {fileID: 778493195}
   m_Layer: 0
   m_Name: small_rock (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5545,11 +5592,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778493191}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.67, y: 0.16, z: 3192.4587}
+  m_LocalPosition: {x: -50.594406, y: 19.676281, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 19
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &778493193
 BoxCollider2D:
@@ -5664,7 +5711,7 @@ GameObject:
   - component: {fileID: 781682509}
   m_Layer: 0
   m_Name: Large_rock
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5725,11 +5772,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781682506}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 530.8227, y: 35.521484, z: 3192.4587}
+  m_LocalPosition: {x: 489.89832, y: 55.037766, z: 4722.0586}
   m_LocalScale: {x: 2.84424, y: 2.73273, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 71
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &781682509
 BoxCollider2D:
@@ -5839,7 +5886,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 87
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -5934,7 +5981,7 @@ PrefabInstance:
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 112
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
@@ -5982,7 +6029,7 @@ GameObject:
   - component: {fileID: 831764423}
   m_Layer: 0
   m_Name: Medium_rock (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6043,11 +6090,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831764420}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 383.95276, y: -12.188514, z: 3192.4587}
+  m_LocalPosition: {x: 343.02835, y: 7.3277683, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 65
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &831764423
 BoxCollider2D:
@@ -6131,7 +6178,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 108
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -6206,7 +6253,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 93
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -6260,7 +6307,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &849347172
 SpriteRenderer:
@@ -6360,7 +6407,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 97
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -6435,7 +6482,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 94
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -6473,7 +6520,7 @@ GameObject:
   - component: {fileID: 932078440}
   m_Layer: 0
   m_Name: Large_rock (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6534,11 +6581,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932078437}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 470.35275, y: 5.1114864, z: 3192.4587}
+  m_LocalPosition: {x: 429.42834, y: 24.62777, z: 4722.0586}
   m_LocalScale: {x: 2.84424, y: 2.73273, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 73
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &932078440
 BoxCollider2D:
@@ -6737,7 +6784,7 @@ PrefabInstance:
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 88
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
@@ -6832,7 +6879,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 76
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -6927,7 +6974,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 77
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -7049,7 +7096,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1037388510
 GameObject:
@@ -7080,7 +7127,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1037388512
 SpriteRenderer:
@@ -7144,7 +7191,7 @@ GameObject:
   - component: {fileID: 1037937178}
   m_Layer: 0
   m_Name: horizontal_rock (9)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7157,11 +7204,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037937174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 108.6, y: -14, z: 3192.4587}
+  m_LocalPosition: {x: 67.67559, y: 5.516282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 35
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1037937176
 BoxCollider2D:
@@ -7313,7 +7360,7 @@ PrefabInstance:
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 110
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
@@ -7398,7 +7445,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 103
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -7436,7 +7483,7 @@ GameObject:
   - component: {fileID: 1081964785}
   m_Layer: 0
   m_Name: Medium_rock (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7497,11 +7544,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081964782}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 205.95276, y: 29.911484, z: 3192.4587}
+  m_LocalPosition: {x: 165.02835, y: 49.427765, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 60
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1081964785
 BoxCollider2D:
@@ -7585,7 +7632,7 @@ PrefabInstance:
     - target: {fileID: 6523038613488516863, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6523038613488516863, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
         type: 3}
@@ -7611,7 +7658,12 @@ PrefabInstance:
     - target: {fileID: 6523038613488516860, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
         type: 3}
       propertyPath: delayInSeconds
-      value: 1.2
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6523038613488516860, guid: 98e4457e8924d1f47b9b7c6dfd94decd,
+        type: 3}
+      propertyPath: maxEnemies
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e4457e8924d1f47b9b7c6dfd94decd, type: 3}
@@ -7629,7 +7681,7 @@ GameObject:
   - component: {fileID: 1220562442}
   m_Layer: 0
   m_Name: Small_rock2 (6)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7642,11 +7694,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220562438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 129.1, y: 29.9, z: 3192.4587}
+  m_LocalPosition: {x: 88.1756, y: 49.416283, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 37
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1220562440
 BoxCollider2D:
@@ -7761,7 +7813,7 @@ GameObject:
   - component: {fileID: 1256696553}
   m_Layer: 0
   m_Name: Medium_rock (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7822,11 +7874,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256696550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 467.25275, y: 35.211487, z: 3192.4587}
+  m_LocalPosition: {x: 426.32834, y: 54.727768, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 68
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1256696553
 BoxCollider2D:
@@ -7867,7 +7919,7 @@ GameObject:
   - component: {fileID: 1261585671}
   m_Layer: 0
   m_Name: Small_rock2
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7928,11 +7980,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261585668}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.81275, y: -12.7185135, z: 3192.4587}
+  m_LocalPosition: {x: -29.111656, y: 6.7977686, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 6
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1261585671
 BoxCollider2D:
@@ -8027,7 +8079,7 @@ Transform:
   m_Children:
   - {fileID: 1486520676}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304457607
 GameObject:
@@ -8043,7 +8095,7 @@ GameObject:
   - component: {fileID: 1304457611}
   m_Layer: 0
   m_Name: Small_rock2 (11)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8056,11 +8108,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304457607}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.8, y: 39.1, z: 3192.4587}
+  m_LocalPosition: {x: 138.8756, y: 58.61628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 43
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1304457609
 BoxCollider2D:
@@ -8176,7 +8228,7 @@ GameObject:
   - component: {fileID: 1306264999}
   m_Layer: 0
   m_Name: Small_rock2 (9)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8189,11 +8241,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306264995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 154.5, y: 15.1, z: 3192.4587}
+  m_LocalPosition: {x: 113.57559, y: 34.61628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 41
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1306264997
 BoxCollider2D:
@@ -8295,6 +8347,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.56}
   m_EdgeRadius: 0
+--- !u!1 &1318341405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8482221143786333541, guid: 2079b60380c6d134794cf3b5294bb9f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1942180908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1318341406 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8482221143786333540, guid: 2079b60380c6d134794cf3b5294bb9f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1942180908}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318341405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b970491ce548e914eb259eaccb87390b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1343912059
 GameObject:
   m_ObjectHideFlags: 0
@@ -8308,7 +8378,7 @@ GameObject:
   - component: {fileID: 1343912062}
   m_Layer: 0
   m_Name: Medium_rock (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8369,11 +8439,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1343912059}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 361.85275, y: 36.311485, z: 3192.4587}
+  m_LocalPosition: {x: 320.92834, y: 55.827766, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 66
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1343912062
 BoxCollider2D:
@@ -8415,7 +8485,7 @@ GameObject:
   - component: {fileID: 1344759383}
   m_Layer: 0
   m_Name: Small_rock2 (17)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8428,11 +8498,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344759379}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 377.8, y: 11.2, z: 3192.4587}
+  m_LocalPosition: {x: 336.87558, y: 30.716282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 53
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1344759381
 BoxCollider2D:
@@ -8548,7 +8618,7 @@ GameObject:
   - component: {fileID: 1345605028}
   m_Layer: 0
   m_Name: Small_rock2 (10)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8561,11 +8631,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345605024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 174, y: -1.7, z: 3192.4587}
+  m_LocalPosition: {x: 133.07559, y: 17.816282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 42
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1345605026
 BoxCollider2D:
@@ -8667,6 +8737,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.56}
   m_EdgeRadius: 0
+--- !u!4 &1349589561 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1939049652}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1356156720
 GameObject:
   m_ObjectHideFlags: 0
@@ -8680,7 +8756,7 @@ GameObject:
   - component: {fileID: 1356156723}
   m_Layer: 0
   m_Name: Medium_rock (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8741,11 +8817,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356156720}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 300.25275, y: 38.411484, z: 3192.4587}
+  m_LocalPosition: {x: 259.32834, y: 57.927765, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 63
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1356156723
 BoxCollider2D:
@@ -8823,7 +8899,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 98
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -8898,7 +8974,7 @@ PrefabInstance:
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 91
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
@@ -8993,7 +9069,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -9067,7 +9143,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1412581182
 SpriteRenderer:
@@ -9130,7 +9206,7 @@ GameObject:
   - component: {fileID: 1414557801}
   m_Layer: 0
   m_Name: Medium_rock (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9191,11 +9267,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414557798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 544.6527, y: -11.288513, z: 3192.4587}
+  m_LocalPosition: {x: 503.72833, y: 8.227769, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 70
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1414557801
 BoxCollider2D:
@@ -9295,12 +9371,42 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2121088495733235991, guid: 7f1f7b0eaace592409b0103cd90004f0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3415302542511368874, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 8482221143786333540, guid: 2079b60380c6d134794cf3b5294bb9f7,
         type: 3}
+    - target: {fileID: 3415302542511368876, guid: 7f1f7b0eaace592409b0103cd90004f0,
+        type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415302542511368876, guid: 7f1f7b0eaace592409b0103cd90004f0,
+        type: 3}
+      propertyPath: CurrentAmmo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3415302542511368876, guid: 7f1f7b0eaace592409b0103cd90004f0,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1318341405}
+    - target: {fileID: 3415302542511368876, guid: 7f1f7b0eaace592409b0103cd90004f0,
+        type: 3}
+      propertyPath: gmScript
+      value: 
+      objectReference: {fileID: 1318341406}
+    - target: {fileID: 3415302542511368876, guid: 7f1f7b0eaace592409b0103cd90004f0,
+        type: 3}
+      propertyPath: Spawn
+      value: 
+      objectReference: {fileID: 378459281}
     - target: {fileID: 1345234767905890559, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
       propertyPath: m_Enabled
@@ -9322,7 +9428,7 @@ GameObject:
   - component: {fileID: 1440298317}
   m_Layer: 0
   m_Name: horizontal_rock (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9335,11 +9441,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440298313}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 57.5, y: 20.3, z: 3192.4587}
+  m_LocalPosition: {x: 16.575592, y: 39.816284, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 30
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1440298315
 BoxCollider2D:
@@ -9455,7 +9561,7 @@ GameObject:
   - component: {fileID: 1465852512}
   m_Layer: 0
   m_Name: small_rock (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9468,11 +9574,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465852508}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.7, y: 29.55, z: 3192.4587}
+  m_LocalPosition: {x: -31.224407, y: 49.066284, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 21
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1465852510
 BoxCollider2D:
@@ -9709,7 +9815,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 78
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -9768,7 +9874,7 @@ GameObject:
   - component: {fileID: 1497612094}
   m_Layer: 0
   m_Name: horizontal_rock (13)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9781,11 +9887,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497612090}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 423, y: 41.9, z: 3192.4587}
+  m_LocalPosition: {x: 382.0756, y: 61.416283, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 55
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1497612092
 BoxCollider2D:
@@ -9937,7 +10043,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 102
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -10012,7 +10118,7 @@ PrefabInstance:
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 92
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
@@ -10071,7 +10177,7 @@ GameObject:
   - component: {fileID: 1583254281}
   m_Layer: 0
   m_Name: horizontal_rock (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10084,11 +10190,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583254277}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.13, y: 41.18, z: 3192.4587}
+  m_LocalPosition: {x: -14.794407, y: 60.69628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 27
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1583254279
 BoxCollider2D:
@@ -10240,7 +10346,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 95
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -10368,7 +10474,7 @@ GameObject:
   - component: {fileID: 1648622456}
   m_Layer: 0
   m_Name: Small_rock2 (3)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10381,11 +10487,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648622452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.78, y: 36.68, z: 3192.4587}
+  m_LocalPosition: {x: -3.1444092, y: 56.19628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 25
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1648622454
 BoxCollider2D:
@@ -10537,7 +10643,7 @@ PrefabInstance:
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
@@ -10590,7 +10696,7 @@ GameObject:
   - component: {fileID: 1676181914}
   m_Layer: 0
   m_Name: horizontal_rock (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10603,11 +10709,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676181910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 242.8, y: 15.8, z: 3192.4587}
+  m_LocalPosition: {x: 201.8756, y: 35.316284, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 47
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1676181912
 BoxCollider2D:
@@ -10776,7 +10882,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1713316364
 SpriteRenderer:
@@ -10876,7 +10982,7 @@ PrefabInstance:
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 80
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5384843410234706846, guid: 36f1828cc35dfab4586fb888feb73624,
         type: 3}
@@ -10935,7 +11041,7 @@ GameObject:
   - component: {fileID: 1728991005}
   m_Layer: 0
   m_Name: Small_rock2 (5)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10948,11 +11054,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728991001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 118.8, y: 1.6, z: 3192.4587}
+  m_LocalPosition: {x: 77.875595, y: 21.116283, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 36
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1728991003
 BoxCollider2D:
@@ -11104,7 +11210,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 117
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -11179,7 +11285,7 @@ PrefabInstance:
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 90
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 2660304730368199730, guid: d908e80d55a61e442a491c2475905a43,
         type: 3}
@@ -11238,7 +11344,7 @@ GameObject:
   - component: {fileID: 1799744044}
   m_Layer: 0
   m_Name: Small_rock2 (2)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11251,11 +11357,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799744040}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.75, y: 44.25, z: 3192.4587}
+  m_LocalPosition: {x: -42.674408, y: 63.76628, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 24
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1799744042
 BoxCollider2D:
@@ -11370,7 +11476,7 @@ GameObject:
   - component: {fileID: 1836044445}
   m_Layer: 0
   m_Name: Large_rock (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11431,11 +11537,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836044442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 510.35275, y: 9.411487, z: 3192.4587}
+  m_LocalPosition: {x: 469.42834, y: 28.927769, z: 4722.0586}
   m_LocalScale: {x: 2.84424, y: 2.73273, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 72
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1836044445
 BoxCollider2D:
@@ -11477,7 +11583,7 @@ GameObject:
   - component: {fileID: 1849003915}
   m_Layer: 0
   m_Name: Small_rock2 (13)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11490,11 +11596,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849003911}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 222.8, y: 34.4, z: 3192.4587}
+  m_LocalPosition: {x: 181.8756, y: 53.916283, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 45
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1849003913
 BoxCollider2D:
@@ -11610,7 +11716,7 @@ GameObject:
   - component: {fileID: 1858989331}
   m_Layer: 0
   m_Name: horizontal_rock (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11623,11 +11729,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858989327}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.98, y: 13.54, z: 3192.4587}
+  m_LocalPosition: {x: -6.9444084, y: 33.056282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 26
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1858989329
 BoxCollider2D:
@@ -11828,7 +11934,7 @@ GameObject:
   - component: {fileID: 1873519741}
   m_Layer: 0
   m_Name: horizontal_rock (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11841,11 +11947,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873519737}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 298.2, y: -12.8, z: 3192.4587}
+  m_LocalPosition: {x: 257.2756, y: 6.716282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 49
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1873519739
 BoxCollider2D:
@@ -11960,7 +12066,7 @@ GameObject:
   - component: {fileID: 1888648778}
   m_Layer: 0
   m_Name: Large_rock (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12021,11 +12127,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888648775}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 439.25275, y: 30.411484, z: 3192.4587}
+  m_LocalPosition: {x: 398.32834, y: 49.927765, z: 4722.0586}
   m_LocalScale: {x: 2.84424, y: 2.73273, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 74
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1888648778
 BoxCollider2D:
@@ -12066,7 +12172,7 @@ GameObject:
   - component: {fileID: 1904965291}
   m_Layer: 0
   m_Name: Medium_rock (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12127,11 +12233,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904965288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 252.05276, y: -15.488514, z: 3192.4587}
+  m_LocalPosition: {x: 211.12836, y: 4.027768, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 62
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1904965291
 BoxCollider2D:
@@ -12196,42 +12302,67 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 227301587}
     m_Modifications:
     - target: {fileID: 7417940040864184234, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
       propertyPath: m_Name
       value: Walls
       objectReference: {fileID: 0}
+    - target: {fileID: 7417940040864184234, guid: b153701079dc86d4a9ef358f00db85dd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7417940039761606563, guid: b153701079dc86d4a9ef358f00db85dd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7417940040229321976, guid: b153701079dc86d4a9ef358f00db85dd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7417940041171264879, guid: b153701079dc86d4a9ef358f00db85dd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7417940040212817914, guid: b153701079dc86d4a9ef358f00db85dd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.031907827
+      value: -45.53975
       objectReference: {fileID: 0}
     - target: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.31409115
+      value: 10.513678
       objectReference: {fileID: 0}
     - target: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.0930947
+      value: 4720.9653
       objectReference: {fileID: 0}
     - target: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
@@ -12241,7 +12372,7 @@ PrefabInstance:
     - target: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 7417940040864184233, guid: b153701079dc86d4a9ef358f00db85dd,
         type: 3}
@@ -12330,6 +12461,80 @@ PrefabInstance:
     - {fileID: 7417940040212817912, guid: b153701079dc86d4a9ef358f00db85dd, type: 3}
     - {fileID: 6865794149484248028, guid: b153701079dc86d4a9ef358f00db85dd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b153701079dc86d4a9ef358f00db85dd, type: 3}
+--- !u!1001 &1942180908
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8482221143786333541, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.529202
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.94155645
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9143979
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333543, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482221143786333540, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+      propertyPath: ammo
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2079b60380c6d134794cf3b5294bb9f7, type: 3}
 --- !u!1 &1944877672
 GameObject:
   m_ObjectHideFlags: 0
@@ -12344,7 +12549,7 @@ GameObject:
   - component: {fileID: 1944877676}
   m_Layer: 0
   m_Name: Small_rock2 (16)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12357,11 +12562,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944877672}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 344.8, y: 39.9, z: 3192.4587}
+  m_LocalPosition: {x: 303.87558, y: 59.416283, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 50
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1944877674
 BoxCollider2D:
@@ -12477,7 +12682,7 @@ GameObject:
   - component: {fileID: 1960730108}
   m_Layer: 0
   m_Name: Small_rock2 (12)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12490,11 +12695,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960730104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 193.1, y: 19.9, z: 3192.4587}
+  m_LocalPosition: {x: 152.1756, y: 39.416283, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 44
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1960730106
 BoxCollider2D:
@@ -12646,7 +12851,7 @@ PrefabInstance:
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 111
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 3247444431730413637, guid: 5cc6d38145490ed47b31d657f7e83f7c,
         type: 3}
@@ -12731,7 +12936,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 118
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -12770,7 +12975,7 @@ GameObject:
   - component: {fileID: 1994719422}
   m_Layer: 0
   m_Name: horizontal_rock (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12783,11 +12988,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994719418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 146.3, y: -14.6, z: 3192.4587}
+  m_LocalPosition: {x: 105.375595, y: 4.9162817, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 40
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1994719420
 BoxCollider2D:
@@ -12918,7 +13123,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 306783631}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2023593007
 SpriteRenderer:
@@ -13018,7 +13223,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 99
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -13093,7 +13298,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 101
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -13168,7 +13373,7 @@ PrefabInstance:
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 100
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 5399341075797394253, guid: a677ba88cd6a2604392fa222688a738c,
         type: 3}
@@ -13295,7 +13500,7 @@ GameObject:
   - component: {fileID: 2110620001}
   m_Layer: 0
   m_Name: small_rock
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13356,11 +13561,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110619998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.95, y: -3.84, z: 3192.4587}
+  m_LocalPosition: {x: -28.974407, y: 15.676282, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 7
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2110620001
 BoxCollider2D:
@@ -13401,7 +13606,7 @@ GameObject:
   - component: {fileID: 2137918436}
   m_Layer: 0
   m_Name: Medium_rock (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13462,11 +13667,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2137918433}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 337.95276, y: -15.988514, z: 3192.4587}
+  m_LocalPosition: {x: 297.02835, y: 3.5277681, z: 4722.0586}
   m_LocalScale: {x: 1.7746261, y: 1.7025, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 58
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2137918436
 BoxCollider2D:
@@ -13508,7 +13713,7 @@ GameObject:
   - component: {fileID: 2144055925}
   m_Layer: 0
   m_Name: Small_rock2 (19)
-  m_TagString: Projectile
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13521,11 +13726,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144055921}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 499.4, y: 32.4, z: 3192.4587}
+  m_LocalPosition: {x: 458.4756, y: 51.916283, z: 4722.0586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 306783631}
-  m_RootOrder: 56
+  m_Father: {fileID: 227301587}
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2144055923
 BoxCollider2D:

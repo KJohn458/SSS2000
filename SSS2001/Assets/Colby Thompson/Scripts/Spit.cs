@@ -9,11 +9,14 @@ public class Spit : MonoBehaviour
     // gamemanger stuff
     public GameObject gameManger;
     public GameManager gmScript;
+    private GameManager gameManager;
 
     private Transform player;
     private Vector2 target;
+
     void Start()
     {
+        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = new Vector2(player.position.x, player.position.y);
         gameManger = GameObject.FindGameObjectWithTag("GameManager");
@@ -32,9 +35,13 @@ public class Spit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             DestroyProjectile();
+        }
+        if (other.gameObject.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
         }
     }
     void DestroyProjectile(){
@@ -43,6 +50,6 @@ public class Spit : MonoBehaviour
     }
     private void DestroyObjectDelayed()
     {
-        Destroy(gameObject, 0.5f);
+        Destroy(gameObject, 3f);
     }
 }
