@@ -93,3 +93,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  gameManger: {fileID: 649067316333889554}
+  gmScript: {fileID: 8482221143786333540, guid: 66bf87f54fc5167418efbf6e52d975c3,
+    type: 3}
