@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
     public GameObject gameManager;
     public GameManager gmScript;
     public int MaxHP;
-    private int CurrentHP;
+    public int CurrentHP;
 
     private void Start()
     {

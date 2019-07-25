@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -16,8 +17,8 @@ public class GameManager : MonoBehaviour
     private int hp;
 
     //ammo (eventually)
-
-    private int ammo = 6;
+    [SerializeField]
+    private int ammo ;
 
     void Awake()
     {
@@ -51,6 +52,11 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void SetAmmo(int a)
+    {
+        ammo = a;
+    }
+
     public int GetMonsters()
     {
 
@@ -82,17 +88,6 @@ public class GameManager : MonoBehaviour
         return ammo;
     }
 
-    public void subAmmo()
-    {
-        ammo--;
-    }
-
-    public void resetAmmo()
-    {
-
-        ammo = 6;
-
-    }
 
 
 }
