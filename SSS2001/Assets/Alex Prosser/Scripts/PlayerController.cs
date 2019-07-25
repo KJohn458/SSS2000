@@ -30,6 +30,15 @@ public class PlayerController : MonoBehaviour {
         Vector3 mouse = Camera.main.ScreenToWorldPoint(mouseScreen);
 
         shootingRotation = Quaternion.Euler(0, 0, Mathf.Atan2(mouse.y - transform.position.y, mouse.x - transform.position.x) * Mathf.Rad2Deg - 90);
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            moveSpeed += 10;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            moveSpeed -= 10;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
