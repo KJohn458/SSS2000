@@ -130,6 +130,7 @@ MonoBehaviour:
   moveSpeed: 10
   gameManager: {fileID: 0}
   shootingRotation: {x: 0, y: 0, z: 0, w: 0}
+  death: {fileID: 0}
 --- !u!50 &3415302542511368875
 Rigidbody2D:
   serializedVersion: 4

@@ -12,6 +12,8 @@ TagManager:
   - Enemy
   - BulletSpawn
   - GameManager
+  - MeleeSpawn
+  - Spawn
   layers:
   - Default
   - TransparentFX
