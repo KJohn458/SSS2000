@@ -14,6 +14,7 @@ TagManager:
   - GameManager
   - MeleeSpawn
   - Spawn
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -62,4 +63,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3537438729
+    locked: 0
+  - name: Tree
+    uniqueID: 3375982329
     locked: 0
