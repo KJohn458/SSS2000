@@ -27,10 +27,6 @@ public class Spit : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
-        if (transform.position.x == target.x && transform.position.y == target.y)
-        {
-            DestroyProjectile();
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -50,6 +46,6 @@ public class Spit : MonoBehaviour
     }
     private void DestroyObjectDelayed()
     {
-        Destroy(gameObject, 3f);
+        Destroy(gameObject, 5f);
     }
 }
