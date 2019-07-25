@@ -7,16 +7,16 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D rigidbody2D;
     public GameManager gameManager;
     public Quaternion shootingRotation;
+    public AudioSource death;
 
     void Start() {
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
     }
 
     void Update() {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+        if (Input.GetKey(KeyCode.Space)) death.Play();
 
         rigidbody2D.MovePosition(rigidbody2D.position + (movement * moveSpeed * Time.deltaTime));
 
