@@ -18,6 +18,7 @@ public class Spit : MonoBehaviour
         target = new Vector2(player.position.x, player.position.y);
         gameManger = GameObject.FindGameObjectWithTag("GameManager");
         gmScript = gameManger.GetComponent<GameManager>();
+        DestroyObjectDelayed();
     }
 
     void Update()
@@ -28,6 +29,7 @@ public class Spit : MonoBehaviour
             DestroyProjectile();
         }
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -38,5 +40,9 @@ public class Spit : MonoBehaviour
     void DestroyProjectile(){
         gmScript.ManageHP(-1);
         Destroy(gameObject);
+    }
+    private void DestroyObjectDelayed()
+    {
+        Destroy(gameObject, 0.5f);
     }
 }
