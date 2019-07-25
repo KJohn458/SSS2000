@@ -6,12 +6,18 @@ public class Spit : MonoBehaviour
 {
     public float speed;
 
+    // gamemanger stuff
+    public GameObject gameManger;
+    public GameManager gmScript;
+
     private Transform player;
     private Vector2 target;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = new Vector2(player.position.x, player.position.y);
+        gameManger = GameObject.FindGameObjectWithTag("GameManager");
+        gmScript = gameManger.GetComponent<GameManager>();
     }
 
     void Update()
@@ -30,6 +36,7 @@ public class Spit : MonoBehaviour
         }
     }
     void DestroyProjectile(){
+        gmScript.ManageHP(-1);
         Destroy(gameObject);
     }
 }
