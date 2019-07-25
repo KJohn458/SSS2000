@@ -11,6 +11,7 @@ public class RangedAI : MonoBehaviour
     public float nearDistance;
     public float startTimeBtwShots;
     private float timeBtwShots;
+    public float range;
 
     [Header("References")]
     public GameObject shot;
@@ -21,21 +22,32 @@ public class RangedAI : MonoBehaviour
         timeBtwShots = startTimeBtwShots;
     }
 
-    void Update() {
+    void Update()
+    {
 
-        if (Vector2.Distance(transform.position, player.position) > stoppingDistance) {
+        if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
+        {
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-        } else if((Vector2.Distance(transform.position, player.position) < nearDistance)){
+        }
+        else if ((Vector2.Distance(transform.position, player.position) < nearDistance))
+        {
             transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
-        } else {
+        }
+        else
+        {
             transform.position = Vector2.MoveTowards(transform.position, player.position, 0);
         }
-
-        if (timeBtwShots <= 0) {
-            Instantiate(shot, transform.position, Quaternion.identity);
-            timeBtwShots = startTimeBtwShots;
-        } else {
-            timeBtwShots -= Time.deltaTime;
+        if (Vector2.Distance(transform.position, player.position) < range)
+        {
+            if (timeBtwShots <= 0)
+            {
+                Instantiate(shot, transform.position, Quaternion.identity);
+                timeBtwShots = startTimeBtwShots;
+            }
+            else
+            {
+                timeBtwShots -= Time.deltaTime;
+            }
         }
     }
 }
