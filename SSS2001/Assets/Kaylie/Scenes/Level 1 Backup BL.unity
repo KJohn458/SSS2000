@@ -658,6 +658,7 @@ MonoBehaviour:
     m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &154330641
 GameObject:
   m_ObjectHideFlags: 3
@@ -822,6 +823,8 @@ PrefabInstance:
 =======
 >>>>>>> master
 >>>>>>> Stashed changes
+=======
+>>>>>>> master
 --- !u!4 &311614182 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2660304730368199730, guid: 86d59b64d3a94f1438ea640c7ed3226c,
@@ -1152,7 +1155,7 @@ RectTransform:
   - {fileID: 1914389707}
   - {fileID: 497615476}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1272,7 +1275,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &476698054
 PrefabInstance:
@@ -1955,6 +1958,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 556303076}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -1971,12 +1975,17 @@ Transform:
   m_PrefabInstance: {fileID: 606427665}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> master
   m_GameObject: {fileID: 577186056}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 --- !u!1001 &606427665
 PrefabInstance:
@@ -2211,7 +2220,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &675115768
 PrefabInstance:
@@ -2798,7 +2807,7 @@ Transform:
   m_Children:
   - {fileID: 1392251947}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1151626503
 PrefabInstance:
@@ -2977,7 +2986,7 @@ Transform:
   - {fileID: 95088703}
   - {fileID: 503672665}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1236497539 stripped
 Transform:
@@ -4670,7 +4679,7 @@ Transform:
   - {fileID: 687012893}
   - {fileID: 1373555274}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1694621114 stripped
 Transform:
@@ -5882,7 +5891,7 @@ Transform:
   - {fileID: 574826494}
   - {fileID: 1973505955}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8482221145335596161
 PrefabInstance:
