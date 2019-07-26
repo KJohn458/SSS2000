@@ -12,15 +12,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_FlowerCannonThatRuns
       objectReference: {fileID: 0}
+    - target: {fileID: 1104666156970157529, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
+        type: 3}
+      propertyPath: range
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104666156970157529, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
+        type: 3}
+      propertyPath: stoppingDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104666156970157529, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
+        type: 3}
+      propertyPath: nearDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724381481473736937, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.22654879
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724381481473736937, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.04156065
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724381481473736937, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.7254047
+      objectReference: {fileID: 0}
     - target: {fileID: 2724381481473736950, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.13
+      value: 2.204
       objectReference: {fileID: 0}
     - target: {fileID: 2724381481473736950, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.87
+      value: -17.861
       objectReference: {fileID: 0}
     - target: {fileID: 2724381481473736950, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
         type: 3}
@@ -67,21 +97,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1104666156970157529, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
-        type: 3}
-      propertyPath: range
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1104666156970157529, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
-        type: 3}
-      propertyPath: stoppingDistance
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1104666156970157529, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
-        type: 3}
-      propertyPath: nearDistance
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2724381480005818060, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
         type: 3}
       propertyPath: m_Name
@@ -96,16 +111,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7709977604028103280, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1028214313
-      objectReference: {fileID: 0}
-    - target: {fileID: 7709977604028103280, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05a9b1367c00dd14d86bfa3fccea75e1, type: 3}
