@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 541471443147187721}
   - component: {fileID: 4087327518858238158}
   - component: {fileID: 6237569890128852465}
+  - component: {fileID: -1267365121533731795}
   m_Layer: 0
   m_Name: Spit
   m_TagString: Projectile
@@ -146,3 +147,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-1267365121533731795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649067316333889554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a40cefc05649fb408f56f12625a36ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManger: {fileID: 0}
+  gmScript: {fileID: 0}
