@@ -8,14 +8,26 @@ public class ChaseAI : MonoBehaviour
     public int minDist = 1;
     private Rigidbody2D rigidbody;
     private GameObject player;
+    public GameObject gameManger;
+    public GameManager gmScript;
+    private GameManager gameManager;
 
     private void Start()
     {
+        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
+        gameManger = GameObject.FindGameObjectWithTag("GameManager");
+        gmScript = gameManger.GetComponent<GameManager>();
     }
-
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            gmScript.ManageHP(-1);
+        }
+    }
+        void Update()
     {
         Vector3 dir = (player.transform.position - rigidbody.transform.position).normalized;
 
