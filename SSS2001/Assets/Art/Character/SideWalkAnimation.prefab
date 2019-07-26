@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2101778769098039176}
   - component: {fileID: 3745473147493834745}
   m_Layer: 0
-  m_Name: WalkingSpriteSheet_0
+  m_Name: SideWalkAnimation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
