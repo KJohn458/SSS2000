@@ -44,9 +44,22 @@ public class PlayerController : MonoBehaviour {
         Vector3 mouseScreen = Input.mousePosition;
         Vector3 mouse = Camera.main.ScreenToWorldPoint(mouseScreen);
 
-        shootingRotation = Quaternion.Euler(0, 0, Mathf.Atan2(mouse.y - transform.position.y, mouse.x - transform.position.x) * Mathf.Rad2Deg - 90);
+        float angle = Mathf.Atan2(mouse.y - transform.position.y, mouse.x - transform.position.x) * Mathf.Rad2Deg;
 
-        gameObject.transform.Find("Gun").gameObject.transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(mouse.y - transform.position.y, mouse.x - transform.position.x) * Mathf.Rad2Deg);
+        shootingRotation = Quaternion.Euler(0, 0, angle - 90);
+
+        gameObject.transform.Find("Gun").gameObject.transform.rotation = Quaternion.Euler(0, 0, angle);
+
+        Debug.Log(angle);
+
+        if (angle < 90 && angle > -90)
+        {
+            gameObject.transform.Find("Gun").gameObject.transform.Find("Sprite").GetComponent<SpriteRenderer>().flipY = false;
+        }
+        else
+        {
+            gameObject.transform.Find("Gun").gameObject.transform.Find("Sprite").GetComponent<SpriteRenderer>().flipY = true;
+        }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
