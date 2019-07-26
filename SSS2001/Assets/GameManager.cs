@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
 
     //number of enemies
 
@@ -17,15 +16,14 @@ public class GameManager : MonoBehaviour
     private int hp;
 
     //ammo (eventually)
+
     [SerializeField]
     private int ammo ;
-
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
     }
-
-    // Update is called once per frame
+  
     void Update()
     {
         if (monsters <= 0) Debug.Log("Win");
@@ -33,23 +31,17 @@ public class GameManager : MonoBehaviour
 
     public int GetHealth()
     {
-
         return hp;
-
     }
 
     public void SetHP(int a)
     {
-
         hp = a;
-
     }
 
     public void ManageHP(int a)
     {
-
         hp += a;
-
     }
 
     public void SetAmmo(int a)
@@ -59,23 +51,17 @@ public class GameManager : MonoBehaviour
 
     public int GetMonsters()
     {
-
         return monsters;
-
     }
 
     public void AddMonsters(int a)
     {
-
         monsters += a;
-        
     }
 
     public void SubMonsters()
     {
-
         monsters --;
-
     }
 
     public void ManageAmmo(int a)
@@ -87,7 +73,4 @@ public class GameManager : MonoBehaviour
     {
         return ammo;
     }
-
-
-
 }
