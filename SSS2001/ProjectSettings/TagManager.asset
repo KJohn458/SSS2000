@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Ammo
   - Wall
+  - GameManager
   layers:
   - Default
   - TransparentFX
@@ -41,7 +42,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Portal
   m_SortingLayers:
   - name: Default
     uniqueID: 0
