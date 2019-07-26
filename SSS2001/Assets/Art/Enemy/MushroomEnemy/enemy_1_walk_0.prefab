@@ -229,8 +229,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   minDist: 1
-  gameManger: {fileID: 0}
-  gmScript: {fileID: 0}
+  gameManger: {fileID: 8482221143786333541, guid: 66bf87f54fc5167418efbf6e52d975c3,
+    type: 3}
+  gmScript: {fileID: 8482221143786333540, guid: 66bf87f54fc5167418efbf6e52d975c3,
+    type: 3}
 --- !u!114 &8444532722171065399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,5 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f23171fd053f84eb21dce12e1c9dc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManger: {fileID: 0}
-  gmScript: {fileID: 0}
+  gameManger: {fileID: 8482221143786333541, guid: 66bf87f54fc5167418efbf6e52d975c3,
+    type: 3}
+  gmScript: {fileID: 8482221143786333540, guid: 66bf87f54fc5167418efbf6e52d975c3,
+    type: 3}
