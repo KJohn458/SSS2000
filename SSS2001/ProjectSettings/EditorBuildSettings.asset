@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Alex Prosser/Scene/Lvl 6.unity
     guid: 2f25f3252b9994644b3d4e338ebc84a0
   - enabled: 1
