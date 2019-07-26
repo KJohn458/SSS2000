@@ -10,11 +10,9 @@ public class ChaseAI : MonoBehaviour
     private GameObject player;
     public GameObject gameManger;
     public GameManager gmScript;
-    private GameManager gameManager;
 
     private void Start()
     {
-        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
         gameManger = GameObject.FindGameObjectWithTag("GameManager");
