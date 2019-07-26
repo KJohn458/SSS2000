@@ -172,7 +172,7 @@ MonoBehaviour:
   deathSoundEffect: {fileID: 8300000, guid: eda72ad98a068454d8e5f21382310813, type: 3}
   meleeSoundEffect: {fileID: 8300000, guid: b8753c722e15930499e050982306bece, type: 3}
   gunSoundEffect: {fileID: 8300000, guid: 2a0a5828afab6fe43991e4d55edc21a0, type: 3}
-  staminaLengthInSeconds: 0
+  staminaLengthInSeconds: 5
 --- !u!114 &3415302542511368876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce2f775aa2e2e0498598b26f1376106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Melee: {fileID: 6855670870086518162, guid: 74fe1d2840873da4c8afcee1e6ee3120, type: 3}
+  Melee: {fileID: 769507214016546258, guid: f7230801777cef246b7fe7adc8853677, type: 3}
   Spawn: {fileID: 8955206993340025039}
 --- !u!82 &5320614866896313063
 AudioSource:
@@ -518,7 +518,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 406594445318765463, guid: e47ae2e27a7d3a141a9da581919eb938, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e47ae2e27a7d3a141a9da581919eb938, type: 3}
 --- !u!1 &8955206993340025039 stripped
 GameObject:
