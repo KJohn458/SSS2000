@@ -70,7 +70,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 4.738945
+  m_Mass: 7.621275
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Projectile: {fileID: 7508001386693609839, guid: 484abecf46b5a1948ac9ec92d3dda09a,
     type: 3}
-  Spawn: {fileID: 3415302542511368873}
+  Spawn: {fileID: 8032917328079324527}
   gameManager: {fileID: 8482221143786333541, guid: 66bf87f54fc5167418efbf6e52d975c3,
     type: 3}
   gmScript: {fileID: 8482221143786333540, guid: 66bf87f54fc5167418efbf6e52d975c3,
@@ -113,7 +113,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06, y: -0.13}
+  m_Offset: {x: -0.21982896, y: -0.13}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -124,7 +124,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.489186, y: 3.584533}
+  m_Size: {x: 2.2737997, y: 3.584533}
   m_EdgeRadius: 0
 --- !u!70 &6015050642972840431
 CapsuleCollider2D:
@@ -139,8 +139,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.069301605, y: -0.1345259}
-  m_Size: {x: 1.3723819, y: 3.7475955}
+  m_Offset: {x: -0.18554088, y: -0.27982473}
+  m_Size: {x: 2.1279354, y: 4.0381937}
   m_Direction: 0
 --- !u!82 &5320614866896313063
 AudioSource:
@@ -328,8 +328,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8032917328079324527}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.9756764, y: 0.23543474, z: 0.52796656}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 1.9756764, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 5926116270856476795}
@@ -369,8 +369,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1487354315
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

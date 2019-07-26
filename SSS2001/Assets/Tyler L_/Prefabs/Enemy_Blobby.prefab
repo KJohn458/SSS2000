@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2724381480005818063}
   - component: {fileID: 2724381480005818062}
+  - component: {fileID: 7267395441002692082}
+  - component: {fileID: 323331165161794694}
   m_Layer: 0
   m_Name: sprite
   m_TagString: Untagged
@@ -66,7 +68,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1462370259
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -3047760383769603178, guid: b31c086823c5dcd46940493f729b4cbd,
     type: 3}
@@ -80,6 +82,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7267395441002692082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724381480005818060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c826a608cfb55d447a87d1b612aafc6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManger: {fileID: 0}
+  gmScript: {fileID: 0}
+--- !u!58 &323331165161794694
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724381480005818060}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.058111575, y: -0.3486683}
+  serializedVersion: 2
+  m_Radius: 1.9207729
 --- !u!1 &2724381481473736948
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,7 +123,8 @@ GameObject:
   - component: {fileID: 2724381481473736950}
   - component: {fileID: 2724381481473736936}
   - component: {fileID: 2724381481473736951}
-  - component: {fileID: 4020504108788687830}
+  - component: {fileID: 8382849706640698565}
+  - component: {fileID: 3142664163914682642}
   m_Layer: 0
   m_Name: Enemy_Blobby
   m_TagString: Enemy
@@ -126,7 +159,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 9.621128
+  m_Mass: 53.452465
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -149,8 +182,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   minDist: 1
---- !u!58 &4020504108788687830
-CircleCollider2D:
+  gameManger: {fileID: 0}
+  gmScript: {fileID: 0}
+--- !u!114 &8382849706640698565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724381481473736948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c826a608cfb55d447a87d1b612aafc6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManger: {fileID: 0}
+  gmScript: {fileID: 0}
+--- !u!61 &3142664163914682642
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -159,9 +208,19 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.000000059604645, y: -0.014528036}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.7
+  m_Size: {x: 2.481845, y: 2.2784548}
+  m_EdgeRadius: 0
