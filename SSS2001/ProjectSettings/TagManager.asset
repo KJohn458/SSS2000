@@ -13,6 +13,7 @@ TagManager:
   - BulletSpawn
   - GameManager
   - Spawn
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -61,4 +62,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3537438729
+    locked: 0
+  - name: Tree
+    uniqueID: 2372546451
     locked: 0
