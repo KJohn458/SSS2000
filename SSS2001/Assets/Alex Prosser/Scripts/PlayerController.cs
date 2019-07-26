@@ -50,8 +50,6 @@ public class PlayerController : MonoBehaviour {
 
         gameObject.transform.Find("Gun").gameObject.transform.rotation = Quaternion.Euler(0, 0, angle);
 
-        Debug.Log(angle);
-
         if (angle < 90 && angle > -90)
         {
             gameObject.transform.Find("Gun").gameObject.transform.Find("Sprite").GetComponent<SpriteRenderer>().flipY = false;
