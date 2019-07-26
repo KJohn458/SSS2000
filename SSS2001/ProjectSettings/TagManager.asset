@@ -3,22 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Undefined
-  - Bullet
-  - Projectile
-  - Health
-  - Ammo
-  - Enemy
-  - BulletSpawn
-  - GameManager
-  - Spawn
-  - Wall
-<<<<<<< Updated upstream
-=======
-  - EndWall
-  - PortalStatus
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -55,19 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 622305573
-    locked: 0
-  - name: Environment
-    uniqueID: 187298653
-    locked: 0
-  - name: Enemies
-    uniqueID: 2832597037
-    locked: 0
-  - name: Player
-    uniqueID: 3537438729
-    locked: 0
-  - name: Tree
-    uniqueID: 2372546451
     locked: 0
