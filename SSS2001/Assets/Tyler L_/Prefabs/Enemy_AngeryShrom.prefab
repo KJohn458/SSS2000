@@ -70,6 +70,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 6
   minDist: 1
+  gameManger: {fileID: 0}
+  gmScript: {fileID: 0}
 --- !u!212 &1854226956556840890
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -104,7 +106,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1462370259
+  m_SortingLayerID: 1028214313
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 8608910754319214982, guid: 90dbb8d2c70e9fb4b89af87d6f630a30,
