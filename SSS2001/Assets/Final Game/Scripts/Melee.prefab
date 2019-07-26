@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2775134674386972120}
   - component: {fileID: 615922017735809497}
   - component: {fileID: 7516947706168666723}
-  - component: {fileID: 6103985317708292048}
   - component: {fileID: 290045372661865899}
+  - component: {fileID: 7302286367735787468}
   m_Layer: 0
   m_Name: Melee
   m_TagString: Untagged
@@ -79,19 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &6103985317708292048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6855670870086518162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e807a9866ae8dfb449239571e09bedc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  melee: {fileID: 290045372661865899}
 --- !u!61 &290045372661865899
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118,3 +105,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.53029656}
   m_EdgeRadius: 0
+--- !u!114 &7302286367735787468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6855670870086518162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f81ca596b00e2e478931431ddc4d196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  melee: {fileID: 290045372661865899}
