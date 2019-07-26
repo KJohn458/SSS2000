@@ -229,7 +229,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 622305573
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d30fe9d8a1686b946b504aa6a7493f76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -423,7 +423,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122330569}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.248374, y: -4.897128, z: -10}
+  m_LocalPosition: {x: 11.120134, y: -4.897128, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -548,7 +548,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1922420845
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 33e0d32f26948fc4aad9bb73bbe35cdb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -653,6 +653,12 @@ PrefabInstance:
       propertyPath: maxEnemies
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6523038613488516860, guid: b533f223da5f1264fbeeafa473db77f0,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1061389061502215154, guid: 8dec8f2d4e2a73c4095aca5f2a97e4d2,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b533f223da5f1264fbeeafa473db77f0, type: 3}
 --- !u!4 &148333148 stripped
@@ -1026,7 +1032,7 @@ PrefabInstance:
         type: 3}
       propertyPath: enemy
       value: 
-      objectReference: {fileID: 2724381481473736948, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
+      objectReference: {fileID: 7302062507673394523, guid: c8cc1e263998a2f4dba75374ef7fd233,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b533f223da5f1264fbeeafa473db77f0, type: 3}
@@ -1740,7 +1746,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1922420845
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 33e0d32f26948fc4aad9bb73bbe35cdb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2307,7 +2313,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1922420845
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 33e0d32f26948fc4aad9bb73bbe35cdb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2417,7 +2423,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1922420845
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 33e0d32f26948fc4aad9bb73bbe35cdb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3084,7 +3090,7 @@ PrefabInstance:
     - target: {fileID: 3415302542511368875, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
       propertyPath: m_Mass
-      value: 11.776875
+      value: 14.6592045
       objectReference: {fileID: 0}
     - target: {fileID: 3415302542576348809, guid: 7f1f7b0eaace592409b0103cd90004f0,
         type: 3}
@@ -3556,6 +3562,12 @@ PrefabInstance:
       propertyPath: maxEnemies
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6523038613488516860, guid: b533f223da5f1264fbeeafa473db77f0,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1061389061502215154, guid: 8dec8f2d4e2a73c4095aca5f2a97e4d2,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b533f223da5f1264fbeeafa473db77f0, type: 3}
 --- !u!4 &1642563773 stripped
