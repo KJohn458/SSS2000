@@ -20,9 +20,14 @@ public class PlayerController : MonoBehaviour {
     void Update() {
         Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        if (Input.GetAxis("Fire1") > 0) audio.PlayOneShot(gunSoundEffect, 1);
-        if (Input.GetAxis("Fire2") > 0) audio.PlayOneShot(meleeSoundEffect, 1);
-        if (Input.GetKey(KeyCode.Space)) audio.PlayOneShot(deathSoundEffect, 1);
+        if (Input.GetAxis("Fire1") > 0)
+        {
+            audio.PlayOneShot(gunSoundEffect, 1);
+        }
+        if (Input.GetAxis("Fire2") > 0)
+        {
+            audio.PlayOneShot(meleeSoundEffect, 1);
+        }
 
         rigidbody2D.MovePosition(rigidbody2D.position + (movement * moveSpeed * Time.deltaTime));
 
