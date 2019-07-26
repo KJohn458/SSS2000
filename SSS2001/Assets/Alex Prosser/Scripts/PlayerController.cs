@@ -10,12 +10,15 @@ public class PlayerController : MonoBehaviour {
     public AudioClip deathSoundEffect;
     public AudioClip meleeSoundEffect;
     public AudioClip gunSoundEffect;
+    public float staminaLengthInSeconds;
     private AudioSource audio;
-    private bool gunSound, meleeSound;
+    private bool gunSound, meleeSound, running;
+    private float stamina;
 
     void Start() {
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
         audio = gameObject.GetComponent<AudioSource>();
+        stamina = staminaLengthInSeconds;
     }
 
     void Update() {
@@ -59,13 +62,20 @@ public class PlayerController : MonoBehaviour {
             gameObject.transform.Find("Gun").gameObject.transform.Find("Sprite").GetComponent<SpriteRenderer>().flipY = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && stamina > 0)
         {
             moveSpeed += 10;
+            running = true;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             moveSpeed -= 10;
+            running = false;
+        }
+
+        if (running)
+        {
+            stamina -= Time.deltaTime;
         }
     }
 

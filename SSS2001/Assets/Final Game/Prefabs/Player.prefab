@@ -101,8 +101,8 @@ MonoBehaviour:
     type: 3}
   gmScript: {fileID: 8482221143786333540, guid: 66bf87f54fc5167418efbf6e52d975c3,
     type: 3}
-  maxAmmo: 999
-  CurrentAmmo: 999
+  maxAmmo: 60
+  CurrentAmmo: 20
 --- !u!61 &3415302542511368877
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Melee: {fileID: 6855670870086518162, guid: 74fe1d2840873da4c8afcee1e6ee3120, type: 3}
-  Spawn: {fileID: 8955206993340025039}
+  Spawn: {fileID: 406594445318765457, guid: e47ae2e27a7d3a141a9da581919eb938, type: 3}
 --- !u!95 &1741540111
 Animator:
   serializedVersion: 3
