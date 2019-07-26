@@ -14,6 +14,11 @@ TagManager:
   - GameManager
   - Spawn
   - Wall
+<<<<<<< Updated upstream
+=======
+  - EndWall
+  - PortalStatus
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
