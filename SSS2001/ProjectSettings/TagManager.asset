@@ -8,6 +8,7 @@ TagManager:
   - Health
   - Enemy
   - Ammo
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -50,6 +51,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2807612981
+    locked: 0
+  - name: Enemy
+    uniqueID: 1028214313
     locked: 0
   - name: Environment
     uniqueID: 49785541
