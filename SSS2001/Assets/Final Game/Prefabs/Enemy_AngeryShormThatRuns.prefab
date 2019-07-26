@@ -12,6 +12,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_AngeryShormThatRuns
       objectReference: {fileID: 0}
+    - target: {fileID: 2724381481473736936, guid: 177cd992ef08192449bf0ef030883bab,
+        type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724381481473736936, guid: 177cd992ef08192449bf0ef030883bab,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2724381481473736950, guid: 177cd992ef08192449bf0ef030883bab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -67,16 +77,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2724381481473736936, guid: 177cd992ef08192449bf0ef030883bab,
+    - target: {fileID: 2724381481473736951, guid: 177cd992ef08192449bf0ef030883bab,
         type: 3}
-      propertyPath: m_UseAutoMass
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2724381481473736936, guid: 177cd992ef08192449bf0ef030883bab,
+      propertyPath: gameManger
+      value: 
+      objectReference: {fileID: 8482221143786333541, guid: 2079b60380c6d134794cf3b5294bb9f7,
         type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 2724381481473736951, guid: 177cd992ef08192449bf0ef030883bab,
+        type: 3}
+      propertyPath: gmScript
+      value: 
+      objectReference: {fileID: 8482221143786333540, guid: 2079b60380c6d134794cf3b5294bb9f7,
+        type: 3}
+    - target: {fileID: 478920914, guid: 177cd992ef08192449bf0ef030883bab, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: eb8921d1a2ad64640b8d286b329df348, type: 2}
     - target: {fileID: 1854226956556840890, guid: 177cd992ef08192449bf0ef030883bab,
         type: 3}
       propertyPath: m_DrawMode
@@ -90,16 +106,12 @@ PrefabInstance:
     - target: {fileID: 1854226956556840890, guid: 177cd992ef08192449bf0ef030883bab,
         type: 3}
       propertyPath: m_SortingLayerID
-      value: 49785541
+      value: 1028214313
       objectReference: {fileID: 0}
     - target: {fileID: 1854226956556840890, guid: 177cd992ef08192449bf0ef030883bab,
         type: 3}
       propertyPath: m_SortingLayer
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 478920914, guid: 177cd992ef08192449bf0ef030883bab, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: eb8921d1a2ad64640b8d286b329df348, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 177cd992ef08192449bf0ef030883bab, type: 3}
