@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
     public AudioClip meleeSoundEffect;
     public AudioClip gunSoundEffect;
     private AudioSource audio;
+    private bool gunSound, meleeSound;
 
     void Start() {
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
@@ -20,13 +21,22 @@ public class PlayerController : MonoBehaviour {
     void Update() {
         Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        if (Input.GetAxis("Fire1") > 0)
+        if (Input.GetAxis("Fire1") > 0 && !gunSound)
         {
             audio.PlayOneShot(gunSoundEffect, 1);
+            gunSound = true;
         }
-        if (Input.GetAxis("Fire2") > 0)
+        else if (Input.GetAxis("Fire1") == 0) {
+            gunSound = false;
+        }
+        if (Input.GetAxis("Fire2") > 0 && !meleeSound)
         {
             audio.PlayOneShot(meleeSoundEffect, 1);
+            meleeSound = true;
+        }
+        else if (Input.GetAxis("Fire2") == 0)
+        {
+            meleeSound = false;
         }
 
         rigidbody2D.MovePosition(rigidbody2D.position + (movement * moveSpeed * Time.deltaTime));
