@@ -12,13 +12,14 @@ public class PlayerController : MonoBehaviour {
     public AudioClip gunSoundEffect;
     public float staminaLengthInSeconds;
     private AudioSource audio;
-    private bool gunSound, meleeSound, running;
-    private float stamina;
+    private bool gunSound, meleeSound, running, tired;
+    private float stamina, moveSpeedActual;
 
     void Start() {
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
         audio = gameObject.GetComponent<AudioSource>();
         stamina = staminaLengthInSeconds;
+        moveSpeedActual = moveSpeed;
     }
 
     void Update() {
@@ -42,7 +43,7 @@ public class PlayerController : MonoBehaviour {
             meleeSound = false;
         }
 
-        rigidbody2D.MovePosition(rigidbody2D.position + (movement * moveSpeed * Time.deltaTime));
+        rigidbody2D.MovePosition(rigidbody2D.position + (movement * moveSpeedActual * Time.deltaTime));
 
         Vector3 mouseScreen = Input.mousePosition;
         Vector3 mouse = Camera.main.ScreenToWorldPoint(mouseScreen);
@@ -64,19 +65,35 @@ public class PlayerController : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && stamina > 0)
         {
-            moveSpeed += 10;
             running = true;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            moveSpeed -= 10;
             running = false;
         }
 
-        if (running)
+        if (running && !tired)
         {
+            moveSpeedActual = moveSpeed + 10;
             stamina -= Time.deltaTime;
+            if (stamina <= 0)
+            {
+                stamina = 0;
+                moveSpeedActual = moveSpeed;
+                tired = true;
+            }
         }
+        else {
+            moveSpeedActual = moveSpeed;
+            stamina += Time.deltaTime;
+            if (stamina > 5)
+            {
+                tired = false;
+                stamina = 5;
+            }
+        }
+
+        Debug.Log(stamina);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
