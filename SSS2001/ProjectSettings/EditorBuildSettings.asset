@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Alex Prosser/Scene/Lvl 6.unity
+    guid: 2f25f3252b9994644b3d4e338ebc84a0
+  - enabled: 1
+    path: Assets/Kaylie/Scenes/Lvl 1.unity
+    guid: 9c05c4167a51cc248aaded662d5da391
+  - enabled: 1
+    path: Assets/Kaylie/Scenes/Lvl 2.unity
+    guid: 1f7c6476d9422924da16e6a92296b9db
+  - enabled: 1
+    path: Assets/Kaylie/Scenes/Lvl 3.unity
+    guid: 24d3ba64c4a9ebc44a0c8d31148e9a7d
   m_configObjects: {}
