@@ -5,13 +5,15 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     private Rigidbody2D rb2d;
-    public int thrust = 20;
+    public int thrust = 100;
+   
     
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         DestroyObjectDelayed();
+        transform.rotation.Set(0f, 0f, 90f,0);
     }
 
     // Update is called once per frame
