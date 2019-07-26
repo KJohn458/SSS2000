@@ -19,7 +19,7 @@ public class Health : MonoBehaviour
     private void Update()
     {
         CurrentHP = gmScript.GetHealth();
-        if (CurrentHP == 0)
+        if (CurrentHP <= 0)
         {
             Destroy(gameObject);
         }
