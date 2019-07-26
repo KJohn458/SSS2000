@@ -37,11 +37,14 @@ public class StartOptions : MonoBehaviour {
         menuCanvasGroup = GetComponent<CanvasGroup>();
 
         fadeImage.color = menuSettingsData.sceneChangeFadeColor;
+
+        Time.timeScale = 0;
 	}
 
 
 	public void StartButtonClicked()
 	{
+        Time.timeScale = 1;
 		//If changeMusicOnStart is true, fade out volume of music group of AudioMixer by calling FadeDown function of PlayMusic
 		//To change fade time, change length of animation "FadeToColor"
 		if (menuSettingsData.musicLoopToChangeTo != null) 
@@ -56,6 +59,7 @@ public class StartOptions : MonoBehaviour {
 			Invoke ("LoadDelayed", menuSettingsData.menuFadeTime);
 
             StartCoroutine(FadeCanvasGroupAlpha(0f, 1f, fadeOutImageCanvasGroup));
+            SceneManager.LoadScene(1);
 
         } 
 
