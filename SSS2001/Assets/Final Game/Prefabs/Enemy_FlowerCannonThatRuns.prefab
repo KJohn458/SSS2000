@@ -106,6 +106,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerCannon
       objectReference: {fileID: 0}
+    - target: {fileID: 2724381480005818062, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1487354315
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724381480005818062, guid: 05a9b1367c00dd14d86bfa3fccea75e1,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05a9b1367c00dd14d86bfa3fccea75e1, type: 3}
 --- !u!1 &7302062508151491427 stripped
