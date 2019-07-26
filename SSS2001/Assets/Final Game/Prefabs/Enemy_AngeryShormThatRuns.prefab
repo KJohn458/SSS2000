@@ -71,6 +71,16 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: eb8921d1a2ad64640b8d286b329df348, type: 2}
+    - target: {fileID: 2724381481473736936, guid: 177cd992ef08192449bf0ef030883bab,
+        type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724381481473736936, guid: 177cd992ef08192449bf0ef030883bab,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1854226956556840890, guid: 177cd992ef08192449bf0ef030883bab,
         type: 3}
       propertyPath: m_DrawMode
