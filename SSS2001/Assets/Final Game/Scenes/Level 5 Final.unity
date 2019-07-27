@@ -805,7 +805,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &612205978
 GameObject:
@@ -1018,7 +1018,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &687012892
 GameObject:
@@ -2745,7 +2745,7 @@ Transform:
   - {fileID: 687012893}
   - {fileID: 1373555274}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1694621114 stripped
 Transform:
@@ -3273,7 +3273,7 @@ PrefabInstance:
     - target: {fileID: 4418355132285434434, guid: 98b6776c69c44334ba3f388395e25246,
         type: 3}
       propertyPath: m_Name
-      value: portal_sprite02_0 (1)
+      value: Starting Portal
       objectReference: {fileID: 0}
     - target: {fileID: 5665347939716784034, guid: 98b6776c69c44334ba3f388395e25246,
         type: 3}
@@ -3472,7 +3472,7 @@ Transform:
   - {fileID: 1870498749}
   - {fileID: 23197953}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1970471970
 GameObject:
