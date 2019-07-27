@@ -6,14 +6,12 @@ public class Health : MonoBehaviour
 {
     public GameObject gameManager;
     public GameManager gmScript;
-    public int MaxHP;
     public int CurrentHP;
 
     private void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager");
         gmScript = gameManager.GetComponent<GameManager>();
-        gmScript.SetHP(MaxHP);
 
     }
     private void Update()

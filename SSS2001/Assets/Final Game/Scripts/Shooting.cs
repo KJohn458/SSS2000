@@ -10,7 +10,6 @@ public class Shooting : MonoBehaviour
 
     public GameObject gameManager;
     public GameManager gmScript;
-    public int maxAmmo;
     public int CurrentAmmo;
     
     private Vector3 Position;
@@ -22,7 +21,6 @@ public class Shooting : MonoBehaviour
 
         gameManager = GameObject.FindGameObjectWithTag("GameManager");
         gmScript = gameManager.GetComponent<GameManager>();
-        gmScript.SetAmmo(maxAmmo);
     }
     void Update()
     {
