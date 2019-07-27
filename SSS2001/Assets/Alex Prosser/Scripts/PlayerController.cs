@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour {
     private AudioSource audio;
     private bool gunSound, meleeSound, running, tired;
     private float stamina, moveSpeedActual;
+    private Animator anim;
+    private SpriteRenderer sr;
 
     void Start()
     {
@@ -21,7 +23,12 @@ public class PlayerController : MonoBehaviour {
         audio = gameObject.GetComponent<AudioSource>();
         stamina = staminaLengthInSeconds;
         moveSpeedActual = moveSpeed;
+<<<<<<< Updated upstream
         gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
+=======
+        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
+>>>>>>> Stashed changes
     }
 
     void Update() {
@@ -46,6 +53,9 @@ public class PlayerController : MonoBehaviour {
         }
 
         rigidbody2D.MovePosition(rigidbody2D.position + (movement * moveSpeedActual * Time.deltaTime));
+
+        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("Horizontal", movement.x);
 
         Vector3 mouseScreen = Input.mousePosition;
         Vector3 mouse = Camera.main.ScreenToWorldPoint(mouseScreen);
@@ -94,6 +104,15 @@ public class PlayerController : MonoBehaviour {
                 stamina = 5;
             }
         }
+<<<<<<< Updated upstream
+=======
+        if ((Input.GetAxis("Horizontal")) > 0)
+            sr.flipX = false;
+        else if ((Input.GetAxis("Horizontal") < 0))
+            sr.flipX = true;
+
+        Debug.Log(stamina);
+>>>>>>> Stashed changes
     }
 
     void OnTriggerEnter2D(Collider2D collision)

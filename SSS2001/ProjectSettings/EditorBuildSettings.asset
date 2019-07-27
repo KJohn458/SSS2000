@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Scenes:
   - enabled: 1
     path: Assets/Final Game/Scenes/Level 1 Final.unity
@@ -20,4 +21,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Final Game/Scenes/Level 5 Final.unity
     guid: 5b6446e4eb65d4b41aa212984641f927
+=======
+  m_Scenes: []
+>>>>>>> Stashed changes
   m_configObjects: {}
