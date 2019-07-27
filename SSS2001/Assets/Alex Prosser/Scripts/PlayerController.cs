@@ -92,8 +92,6 @@ public class PlayerController : MonoBehaviour {
                 stamina = 5;
             }
         }
-
-        Debug.Log(stamina);
     }
 
     void OnTriggerEnter2D(Collider2D collision)

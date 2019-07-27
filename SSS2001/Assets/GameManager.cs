@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
   
     void Update()
     {
-        if (monsters <= 0) Debug.Log("Win");
+        Debug.Log(monsters);
     }
 
     public int GetHealth()
