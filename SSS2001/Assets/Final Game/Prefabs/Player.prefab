@@ -166,8 +166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  gameManager: {fileID: 8482221143786333540, guid: 2079b60380c6d134794cf3b5294bb9f7,
-    type: 3}
   shootingRotation: {x: 0, y: 0, z: 0, w: 0}
   deathSoundEffect: {fileID: 8300000, guid: eda72ad98a068454d8e5f21382310813, type: 3}
   meleeSoundEffect: {fileID: 8300000, guid: b8753c722e15930499e050982306bece, type: 3}
@@ -210,7 +208,7 @@ MonoBehaviour:
     type: 3}
   gmScript: {fileID: 8482221143786333540, guid: 66bf87f54fc5167418efbf6e52d975c3,
     type: 3}
-  MaxHP: 5
+  MaxHP: 10
   CurrentHP: 0
 --- !u!114 &4089222153986211801
 MonoBehaviour:

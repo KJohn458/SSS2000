@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
     public float moveSpeed;
     private Rigidbody2D rigidbody2D;
-    public GameManager gameManager;
+    private GameManager gameManager;
     public Quaternion shootingRotation;
     public AudioClip deathSoundEffect;
     public AudioClip meleeSoundEffect;
@@ -15,11 +15,13 @@ public class PlayerController : MonoBehaviour {
     private bool gunSound, meleeSound, running, tired;
     private float stamina, moveSpeedActual;
 
-    void Start() {
+    void Start()
+    {
         rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
         audio = gameObject.GetComponent<AudioSource>();
         stamina = staminaLengthInSeconds;
         moveSpeedActual = moveSpeed;
+        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
     }
 
     void Update() {
@@ -98,7 +100,7 @@ public class PlayerController : MonoBehaviour {
     {
         if (collision.gameObject.CompareTag("Health"))
         {
-            gameManager.ManageHP(10);
+            gameManager.ManageHP(3);
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Ammo"))
