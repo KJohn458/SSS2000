@@ -5,6 +5,8 @@ using UnityEngine;
 public class Melee : MonoBehaviour
 {
     public Collider2D melee;
+    public GameObject gameManager;
+    public GameManager gmScript;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,10 @@ public class Melee : MonoBehaviour
         if (collision.tag == "Wall")
         {
             Destroy(gameObject);
+        }
+        if (collision.tag == "Blobby")
+        {
+            //gmScript.ManageBlobbyHP(-1);
         }
 
     }

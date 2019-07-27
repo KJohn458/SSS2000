@@ -6,6 +6,7 @@ public class KillEnemy : MonoBehaviour
 {
 
     private GameManager gameManager;
+    private EnemyHealth eHealth;
 
     private void Start()
     {
@@ -24,6 +25,11 @@ public class KillEnemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void DamageEnemy()
+    {
+        eHealth.health--;
     }
 
 }
