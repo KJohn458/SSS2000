@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Final Game/Scenes/Level 1 Final.unity
+    guid: cb9e31e17f4ced24ca96fdefc014eeb6
+  - enabled: 1
+    path: Assets/Final Game/Scenes/Level 2 Final.unity
+    guid: 1f7c6476d9422924da16e6a92296b9db
+  - enabled: 1
+    path: Assets/Final Game/Scenes/Level 3 Final.unity
+    guid: f5494e044454410438a479e3860bb14a
+  - enabled: 1
+    path: Assets/Final Game/Scenes/Level 4 Final.unity
+    guid: 7780c4dbe69a0dc43a623f8fb66846cd
+  - enabled: 1
+    path: Assets/Final Game/Scenes/Level 5 Final.unity
+    guid: 5b6446e4eb65d4b41aa212984641f927
   m_configObjects: {}
