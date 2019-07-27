@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5320309846173756283}
   - component: {fileID: 5358014682352515302}
   - component: {fileID: 8444532722171065399}
+  - component: {fileID: -5624934160553936745}
   m_Layer: 0
   m_Name: enemy_1_walk_0
   m_TagString: Enemy
@@ -249,3 +250,16 @@ MonoBehaviour:
     type: 3}
   gmScript: {fileID: 8482221143786333540, guid: 66bf87f54fc5167418efbf6e52d975c3,
     type: 3}
+--- !u!114 &-5624934160553936745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306602046001334653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48cc6a1b9265c344283c678b202e4dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
