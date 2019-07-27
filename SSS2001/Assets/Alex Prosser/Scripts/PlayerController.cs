@@ -23,12 +23,9 @@ public class PlayerController : MonoBehaviour {
         audio = gameObject.GetComponent<AudioSource>();
         stamina = staminaLengthInSeconds;
         moveSpeedActual = moveSpeed;
-<<<<<<< Updated upstream
         gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
-=======
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
->>>>>>> Stashed changes
     }
 
     void Update() {
@@ -104,15 +101,13 @@ public class PlayerController : MonoBehaviour {
                 stamina = 5;
             }
         }
-<<<<<<< Updated upstream
-=======
+
         if ((Input.GetAxis("Horizontal")) > 0)
             sr.flipX = false;
         else if ((Input.GetAxis("Horizontal") < 0))
             sr.flipX = true;
 
-        Debug.Log(stamina);
->>>>>>> Stashed changes
+       // Debug.Log(stamina);
     }
 
     void OnTriggerEnter2D(Collider2D collision)

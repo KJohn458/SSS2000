@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+
     //number of enemies
 
     private int monsters = 0;
@@ -25,7 +26,7 @@ public class GameManager : MonoBehaviour
   
     void Update()
     {
-        
+		Debug.Log(GetMonsters());
     }
 
     public int GetHealth()
@@ -61,7 +62,6 @@ public class GameManager : MonoBehaviour
     public void SubMonsters()
     {
         monsters --;
-		Debug.Log(System.Environment.StackTrace);
 	}
 
     public void ManageAmmo(int a)
