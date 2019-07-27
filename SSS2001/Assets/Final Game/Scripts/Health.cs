@@ -7,11 +7,14 @@ public class Health : MonoBehaviour
     public GameObject gameManager;
     public GameManager gmScript;
     public int CurrentHP;
+    private Animator anim;
+
 
     private void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager");
         gmScript = gameManager.GetComponent<GameManager>();
+        anim = GetComponent<Animator>();
 
     }
     private void Update()
@@ -19,7 +22,8 @@ public class Health : MonoBehaviour
         CurrentHP = gmScript.GetHealth();
         if (CurrentHP <= 0)
         {
-            Destroy(gameObject);
+            anim.SetBool("IsDead", true);
+            Destroy(gameObject, 2);
         }
     }
 }
