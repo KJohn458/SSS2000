@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
     public AudioClip deathSoundEffect;
     public AudioClip meleeSoundEffect;
     public AudioClip gunSoundEffect;
+    public AudioClip emptyGunSoundEffect;
     public float staminaLengthInSeconds;
     private AudioSource audio;
     private bool gunSound, meleeSound, running, tired;
@@ -33,7 +34,13 @@ public class PlayerController : MonoBehaviour {
 
         if (Input.GetAxis("Fire1") > 0 && !gunSound)
         {
-            audio.PlayOneShot(gunSoundEffect, 1);
+            if (gameManager.getAmmo() > 0)
+            {
+                audio.PlayOneShot(gunSoundEffect, 1);
+            }
+            else {
+                audio.PlayOneShot(emptyGunSoundEffect, 1);
+            }
             gunSound = true;
         }
         else if (Input.GetAxis("Fire1") == 0) {

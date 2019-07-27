@@ -170,6 +170,7 @@ MonoBehaviour:
   deathSoundEffect: {fileID: 8300000, guid: eda72ad98a068454d8e5f21382310813, type: 3}
   meleeSoundEffect: {fileID: 8300000, guid: b8753c722e15930499e050982306bece, type: 3}
   gunSoundEffect: {fileID: 8300000, guid: 2a0a5828afab6fe43991e4d55edc21a0, type: 3}
+  emptyGunSoundEffect: {fileID: 8300000, guid: 364d04798319cf640b6e6c4997dc864f, type: 3}
   staminaLengthInSeconds: 5
 --- !u!114 &3415302542511368876
 MonoBehaviour:
@@ -514,7 +515,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 406594445318765463, guid: e47ae2e27a7d3a141a9da581919eb938, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e47ae2e27a7d3a141a9da581919eb938, type: 3}
 --- !u!1 &8955206993340025039 stripped
 GameObject:
