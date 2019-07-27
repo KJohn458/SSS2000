@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
   
     void Update()
     {
-        Debug.Log(monsters);
+        
     }
 
     public int GetHealth()
@@ -61,7 +61,8 @@ public class GameManager : MonoBehaviour
     public void SubMonsters()
     {
         monsters --;
-    }
+		Debug.Log(System.Environment.StackTrace);
+	}
 
     public void ManageAmmo(int a)
     {
