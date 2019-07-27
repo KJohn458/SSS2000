@@ -7,9 +7,10 @@ public class Melee : MonoBehaviour
     public Collider2D melee;
     public GameObject gameManager;
     public GameManager gmScript;
+	private EnemyHealth eHealth;
 
-    // Start is called before the first frame update
-    void Start()
+	// Start is called before the first frame update
+	void Start()
     {
         DestroyObjectDelayed();
     }
@@ -18,8 +19,9 @@ public class Melee : MonoBehaviour
     {
         if (collision.tag == "Enemy")
         {
-            Destroy(collision.gameObject);
-        }
+			eHealth = collision.GetComponent<EnemyHealth>();
+			eHealth.DamageEnemy();
+		}
         if (collision.tag == "Wall")
         {
             Destroy(gameObject);

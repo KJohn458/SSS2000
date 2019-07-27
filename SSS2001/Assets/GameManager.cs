@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
 
     //number of enemies
-
+	[SerializeField]
     private int monsters = 0;
 
     //player HP
