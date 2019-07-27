@@ -10,6 +10,7 @@ TagManager:
   - Ammo
   - Wall
   - GameManager
+  - Spawn
   layers:
   - Default
   - TransparentFX
