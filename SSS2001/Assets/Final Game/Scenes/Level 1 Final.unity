@@ -1685,6 +1685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpaceSuccuTree (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8217370805823788103, guid: 2c1bf89e8a8d0944e9e1b9ac506cba46,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 2505972209528367111, guid: 2c1bf89e8a8d0944e9e1b9ac506cba46,
         type: 3}
       propertyPath: m_LocalPosition.x
