@@ -25,6 +25,6 @@ public class EnemyHealth : MonoBehaviour
 
    public void DamageEnemy()
     {
-        health = health--;
+        health--;
     }
 }
