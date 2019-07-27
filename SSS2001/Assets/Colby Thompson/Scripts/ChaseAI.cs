@@ -18,13 +18,7 @@ public class ChaseAI : MonoBehaviour
         gameManger = GameObject.FindGameObjectWithTag("GameManager");
         gmScript = gameManger.GetComponent<GameManager>();
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            gmScript.ManageHP(-1);
-        }
-    }
+
         void Update()
     {
         Vector3 dir = (player.transform.position - rigidbody.transform.position).normalized;
