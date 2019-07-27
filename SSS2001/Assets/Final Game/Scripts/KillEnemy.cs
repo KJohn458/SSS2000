@@ -17,9 +17,9 @@ public class KillEnemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            gameManager.SubMonsters();
-            Destroy(other.gameObject);
-            Destroy(gameObject);
+           // gameManager.SubMonsters();
+           // Destroy(other.gameObject);
+            //Destroy(gameObject);
         }
         if (other.gameObject.CompareTag("Wall"))
         {
