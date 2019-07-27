@@ -43,3 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b970491ce548e914eb259eaccb87390b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monsters: 0
+  maxHP: 10

@@ -190,7 +190,6 @@ MonoBehaviour:
     type: 3}
   gmScript: {fileID: 8482221143786333540, guid: 66bf87f54fc5167418efbf6e52d975c3,
     type: 3}
-  maxAmmo: 60
   CurrentAmmo: 20
 --- !u!114 &7639856295709697093
 MonoBehaviour:
@@ -208,7 +207,6 @@ MonoBehaviour:
     type: 3}
   gmScript: {fileID: 8482221143786333540, guid: 66bf87f54fc5167418efbf6e52d975c3,
     type: 3}
-  MaxHP: 10
   CurrentHP: 0
 --- !u!114 &4089222153986211801
 MonoBehaviour:
@@ -516,8 +514,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 406594445318765463, guid: e47ae2e27a7d3a141a9da581919eb938, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e47ae2e27a7d3a141a9da581919eb938, type: 3}
 --- !u!1 &8955206993340025039 stripped
 GameObject:

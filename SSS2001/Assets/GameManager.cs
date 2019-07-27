@@ -15,14 +15,18 @@ public class GameManager : MonoBehaviour
 
     private int hp;
 
-    //ammo (eventually)
+	//ammo (eventually)
+	public int maxHP;
 
-    [SerializeField]
     private int ammo ;
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
     }
+	void Start()
+	{
+		SetHP(maxHP);
+	}
   
     void Update()
     {
