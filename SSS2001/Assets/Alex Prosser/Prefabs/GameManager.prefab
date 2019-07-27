@@ -45,3 +45,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monsters: 0
   maxHP: 10
+  maxAmmo: 60

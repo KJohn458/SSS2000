@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
 
 	//ammo (eventually)
 	public int maxHP;
+	public int maxAmmo;
 
     private int ammo ;
     void Awake()
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
 	void Start()
 	{
 		SetHP(maxHP);
+		SetAmmo(maxAmmo);
 	}
   
     void Update()
