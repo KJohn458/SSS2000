@@ -10,12 +10,13 @@ public class EnemySpawning : MonoBehaviour
     private int currentEnemyCount;
     private GameManager gameManager;
     private float currentDelay;
+    public bool isPickUp;
     void Start()
     {
         gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
         currentDelay = delayInSeconds;
         currentEnemyCount = maxEnemies;
-        gameManager.AddMonsters(maxEnemies);
+        if (!isPickUp) gameManager.AddMonsters(maxEnemies);
     }
 
     void Update()
